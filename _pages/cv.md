@@ -23,12 +23,19 @@ Work experience
   
 Skills
 ======
-* LaTex
-* Data analyse
+* Data analysis
   * Tree-based method
-  * NN-based method
+  * NN-based method(CNN\Transformer)
   <!-- * SPSS -->
-* 
+* Mathematical modeling
+  * SPSS software
+  * Python data visualization(matplotlib)
+* LaTeX\Overleaf
+* Experienced in writing.
+  * PPT
+  * project proposals
+* Artificial Intelligence
+  * computer vision(natural scene, medicine, and remote sensing)
 
 Publications
 ======
