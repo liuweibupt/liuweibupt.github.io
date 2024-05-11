@@ -11,35 +11,24 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Beijing, Tsinghua University, 2029 (expected)
+* B.S. in Beijing, Beijing University of Posts and Telecommunications, 2024
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Winter 2023: Intern
+  * Bytedance
+  * Duties included: LTV Estimate
+  * Supervisor: Shaoyang Cai, Ethan li
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* LaTex
+* Data analyse
+  * Tree-based method
+  * NN-based method
+  <!-- * SPSS -->
+* 
 
 Publications
 ======
@@ -47,7 +36,7 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+<!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
@@ -57,8 +46,11 @@ Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Participated in the full English UN Competency Camp and received a letter of recommendation from UN UNITAR (TOP 15%)
+* In the summer social practice, led the search for the Chahar Anti-Japanese Allied Army with the theme of “visiting the historical exhibition hall and exploring the old revolutionary area”, the project was awarded as the key project of the faculty, and won the first prize of the 2021 Undergraduate Summer Social Competition of the College of Artificial Intelligence (rank: 1/10).
+* More than 200 hours of volunteer.
+
