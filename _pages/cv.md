@@ -16,16 +16,27 @@ Education
 
 Work experience
 ======
+* Winter 2025: Intern
+  * Bytedance
+  * Duties included: High perfromance chips kernels for LLM or others' AI appilications.
+  * Supervisor: Zhennan Qin
+
 * Winter 2023: Intern
   * Bytedance
-  * Duties included: LTV Estimate
+  * Duties included: AI algroithm for ads, e.g. LTV Estimate
   * Supervisor: Shaoyang Cai, Ethan li
-  
+
+
 Skills
 ======
+* Hardare design
+  * chisel
+* Pallarim programing
+  * CUDA
+  * OpenCL
 * Data analysis
   * Tree-based method
-  * NN-based method(CNN\Transformer)
+  * NN-based method(CNN/Transformer)
   <!-- * SPSS -->
 * Mathematical modeling
   * SPSS software
