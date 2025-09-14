@@ -31,7 +31,7 @@ Skills
 ======
 * Hardare design
   * chisel
-* Pallarim programing
+* Parallel programing
   * CUDA
   * OpenCL
 * Data analysis
