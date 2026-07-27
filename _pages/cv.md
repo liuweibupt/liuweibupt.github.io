@@ -3,17 +3,28 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
+hide_title: true
 redirect_from:
   - /resume
 ---
 
 {% include base_path %}
 
-# 刘威
-
-博士生｜GPGPU 体系结构｜Tensor Core 微架构｜AI Infrastructure / MLsys｜软硬件协同设计
-
-电话：15233595728 ｜ 邮箱：[liuw24@mails.tsinghua.edu.cn](mailto:liuw24@mails.tsinghua.edu.cn) ｜ GitHub：[liuweibupt](https://github.com/liuweibupt) ｜ 北京
+<div class="lw-cv-header">
+  <div>
+    <h1>刘威 / Wei Liu</h1>
+    <p><strong>博士生｜GPGPU 体系结构｜Tensor Core 微架构｜AI Infrastructure / MLSys｜软硬件协同设计</strong></p>
+    <div class="lw-contact-pills">
+      <span class="lw-pill">北京</span>
+      <a href="mailto:liuw24@mails.tsinghua.edu.cn">liuw24@mails.tsinghua.edu.cn</a>
+      <a href="https://github.com/liuweibupt">GitHub: liuweibupt</a>
+      <span class="lw-pill">15233595728</span>
+    </div>
+  </div>
+  <figure class="lw-resume-photo">
+    <img src="/images/liuwei-avatar.jpg" alt="Wei Liu public GitHub avatar">
+  </figure>
+</div>
 
 ## 教育经历
 
