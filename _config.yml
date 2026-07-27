@@ -25,10 +25,10 @@ author:
   name             : "Liu Wei / 刘威"
   pronouns         : # example: "she/her"
   bio              : "Ph.D. student at Tsinghua University; GPGPU architecture, Tensor Core, and AI infra."
-  location         : "Beijing"
+  location         :
   # employer         : "Red Brick University"
   uri              : # URL
-  email            : "liuw24@mails.tsinghua.edu.cn"
+  email            :
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
@@ -136,7 +136,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               : false # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
 
@@ -145,7 +145,6 @@ analytics:
 include:
   - .htaccess
   - _pages
-  - files
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -200,16 +199,16 @@ kramdown:
 # Collections
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
