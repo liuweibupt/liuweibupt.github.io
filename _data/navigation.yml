@@ -6,6 +6,9 @@ main:
   - title: "Publications"
     url: /publications/
 
+  - title: "Open Source"
+    url: /projects/
+
   - title: "CV"
     url: /cv/
 

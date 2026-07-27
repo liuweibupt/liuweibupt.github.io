@@ -83,7 +83,7 @@ redirect_from:
 **北京航空航天大学、北京邮电大学**
 - 阅读 100 余篇计算机视觉与遥感语义分割论文，复现 10 余个二维/三维语义分割模型，包括 FCN、PSPNet、SegFormer、Swin Transformer、PointNet、PointNet++、KPConv。
 - 围绕 2D 航空影像与 3D LiDAR 点云融合开展研究，完成论文 3 篇、专利 1 项、竞赛获奖 2 项。
-- 代表成果：IGARSS 2023 Oral、IEEE Aerospace Conference 2023、IEEE JSTARS 2025。
+- 代表成果：IGARSS 2023 Oral、IEEE Aerospace Conference 2023、IEEE JSTARS 2024。
 
 ## 实习经历
 
@@ -91,7 +91,7 @@ redirect_from:
 **2026.05—2026.08｜深圳 / 北京**
 - 面向 GPU / NPU 体系结构数据库负载开展 profiling，使用 Nsight Systems / Nsight Compute 进行性能分析。
 - 复现并评估 SiriusDB，发现 NVIDIA cuDF bug 并提交 issue。
-- 搭建 TQP，用于国产 GPU 数据库负载评估；支持寒武纪 MLU950、昆仑芯 P300。
+- 搭建 [TQP / GPU Tensor DB](https://github.com/THU-DSP-LAB/ventus-pytorch)，用于国产 GPU 数据库负载评估；支持寒武纪 MLU950、昆仑芯 P300。
 - 指导 4 位清华本科生完成 TensorRecordBatch / Join 算子实践。
 
 ### 字节跳动｜AI 芯片实习生
@@ -103,18 +103,28 @@ redirect_from:
 - 参与用户价值预测模型、广告收益分析与用户行为数据分析。
 - 优化作者收益分配策略，支持业务决策。
 
+## 开源项目
+
+- [liuweibupt/DLAFNet](https://github.com/liuweibupt/DLAFNet)：2D 航空影像与 3D LiDAR 点云直接融合语义分割代码。
+- [THU-DSP-LAB/ventus-gpgpu](https://github.com/THU-DSP-LAB/ventus-gpgpu)：清华“乘影” RISC-V 开源 GPGPU 项目。
+- [THU-DSP-LAB/sfu](https://github.com/THU-DSP-LAB/sfu)：多精度特殊函数单元设计与实现。
+- [THU-DSP-LAB/Ventus-OpenCL-Testcase](https://github.com/THU-DSP-LAB/Ventus-OpenCL-Testcase)：Ventus OpenCL 测试用例。
+- [THU-DSP-LAB/ventus-pytorch](https://github.com/THU-DSP-LAB/ventus-pytorch)：Ventus PyTorch 软件栈与 TQP / GPU Tensor DB 相关工作。
+
 ## 论文与学术成果
 
 ### Architecture / ML Systems
-1. J. Li, F. Yu, M. Ma, **W. Liu**, Y. Wang, H. Wu and H. He, “RISC-V-Based GPGPU With Vector Capabilities for High-Performance Computing,” *IEEE Transactions on Very Large Scale Integration (VLSI) Systems*, 2025.
+1. J. Li, F. Yu, M. Ma, **W. Liu**, Y. Wang, H. Wu and H. He, “RISC-V-Based GPGPU With Vector Capabilities for High-Performance Computing,” *IEEE Transactions on Very Large Scale Integration (VLSI) Systems*, 2025. [Code](https://github.com/THU-DSP-LAB/ventus-gpgpu)
 2. **W. Liu**, “A Multi-Precision Reusable Tensor Core Design,” MICRO 2025 Tutorial.
 3. **W. Liu** et al., “TensorForge: Systematic Design Space Exploration of Multi-Precision Tensor Cores for GPGPUs,” ICCAD under review.
 4. **W. Liu** et al., “TensorGauge: A Pre-silicon End-to-end Framework for Quantifying Numerical Effects of Tensor Core Microarchitecture in GEMM,” ARITH 2026.
 
 ### Remote Sensing / Computer Vision
-1. **W. Liu**, H. Wang, Y. Qiao, B. Liang, J. Yang and H. Zhang, “DLAFNet: A Direct Fusion Method of 2D Aerial Image and 3D LiDAR Point Cloud for Semantic Segmentation,” IGARSS 2023 Oral Presentation.
-2. Y. Qiao, **W. Liu**, B. Liang, P. Wang, H. Zhang and J. Yang, “SeMask-Mask2Former: A Semantic Segmentation Model for High Resolution Remote Sensing Images,” IEEE Aerospace Conference 2023.
-3. **W. Liu**, H. Wang, Y. Qiao, H. Zhang and J. Yang, “DLAFNet: Direct LiDAR-Aerial Fusion Network for Semantic Segmentation of 2-D Aerial Image and 3-D LiDAR Point Cloud,” *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*, 2025.
+1. **W. Liu**, H. Wang, Y. Qiao, H. Zhang and J. Yang, “DLAFNet: Direct LiDAR-Aerial Fusion Network for Semantic Segmentation of 2-D Aerial Image and 3-D LiDAR Point Cloud,” *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*, 2024. [Code](https://github.com/liuweibupt/DLAFNet)
+2. Y. Qiao, **W. Liu**, B. Liang, P. Wang, H. Zhang and J. Yang, “SeMask-Mask2Former: A Semantic Segmentation Model for High Resolution Remote Sensing Images,” *2023 IEEE Aerospace Conference*, pp. 1–6, 2023.
+3. Z. Yin, R. Wei, K. Liang, Y. Lin, **W. Liu**, Z. Ma, M. Min and J. Guo, “Semantic Memory Guided Image Representation for Polyp Segmentation,” *ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing*, 2023.
+4. **W. Liu**, H. Wang, Y. Qiao, B. Liang, J. Yang and H. Zhang, “DLAFNet: A Direct Fusion Method of 2D Aerial Image and 3D LiDAR Point Cloud for Semantic Segmentation,” *IGARSS 2023 - 2023 IEEE International Geoscience and Remote Sensing Symposium*, Oral Presentation, 2023. [Code](https://github.com/liuweibupt/DLAFNet)
+5. Z. Liu, **W. Liu**, X. Tong, Q. Shen, Q. Zheng, H. Hu, H. Liu and X. Wang, “ABCF: An Adaptive Balanced Multimodal Website Classification Framework,” *2024 27th International Conference on Computer Supported Cooperative Work in Design*, 2024.
 
 ## 专利
 

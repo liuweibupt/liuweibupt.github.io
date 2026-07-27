@@ -55,6 +55,14 @@ layout: default
           <p style="font-size: smaller">Recommended citation: {{ page.citation }} </p>
         {% endif %}
 
+        {% if page.citation_count or page.codeurl or page.paperurl %}
+          <p class="lw-paper-meta">
+            {% if page.citation_count %}<span>Citations snapshot: {{ page.citation_count }}</span>{% endif %}
+            {% if page.codeurl %}<a href="{{ page.codeurl }}">Code</a>{% endif %}
+            {% if page.paperurl %}<a href="{{ page.paperurl }}">Paper</a>{% endif %}
+          </p>
+        {% endif %}
+
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 

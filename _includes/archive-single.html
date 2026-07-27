@@ -51,6 +51,14 @@
     {% elsif post.excerpt and site.read_more == 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
+
+    {% if post.citation_count or post.codeurl or post.paperurl %}
+      <p class="lw-paper-meta">
+        {% if post.citation_count %}<span>Citations snapshot: {{ post.citation_count }}</span>{% endif %}
+        {% if post.codeurl %}<a href="{{ post.codeurl }}">Code</a>{% endif %}
+        {% if post.paperurl %}<a href="{{ post.paperurl }}">Paper</a>{% endif %}
+      </p>
+    {% endif %}
     
     {% if post.citation and post.paperurl %}
       <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}">{{ post.paperurl }}</a></p>
