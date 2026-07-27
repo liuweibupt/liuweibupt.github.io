@@ -113,34 +113,6 @@
   font-weight: 700;
 }
 
-.lw-stats {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 0.9rem;
-  margin: 1.4rem 0 2rem;
-}
-
-.lw-stat {
-  padding: 1rem;
-  border: 1px solid rgba(15, 23, 42, 0.08);
-  border-radius: 20px;
-  background: #fff;
-  box-shadow: 0 14px 36px rgba(15, 23, 42, 0.06);
-}
-
-.lw-stat strong {
-  display: block;
-  color: #0f172a;
-  font-size: 1.45rem;
-  line-height: 1.1;
-}
-
-.lw-stat span {
-  color: #64748b;
-  font-size: 0.78rem;
-  font-weight: 700;
-}
-
 .lw-section {
   margin: 2.2rem 0;
 }
@@ -242,7 +214,6 @@
     grid-template-columns: 1fr;
   }
 
-  .lw-stats,
   .lw-card-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -259,7 +230,6 @@
     border-radius: 20px;
   }
 
-  .lw-stats,
   .lw-card-grid {
     grid-template-columns: 1fr;
   }

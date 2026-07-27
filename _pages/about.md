@@ -34,13 +34,6 @@ redirect_from:
   </figure>
 </section>
 
-<div class="lw-stats">
-  <div class="lw-stat"><strong>9+</strong><span>Tensor Core numeric formats</span></div>
-  <div class="lw-stat"><strong>3.46×</strong><span>FP8 area efficiency gain</span></div>
-  <div class="lw-stat"><strong>2.1×</strong><span>DriveLM end-to-end speedup</span></div>
-  <div class="lw-stat"><strong>7</strong><span>Patents / patent applications</span></div>
-</div>
-
 <section class="lw-section">
   <h2 class="lw-section-title">Research Focus</h2>
   <div class="lw-card-grid">
