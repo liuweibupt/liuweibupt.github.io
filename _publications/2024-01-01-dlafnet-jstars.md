@@ -7,6 +7,7 @@ date: 2024-01-01
 venue: "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing"
 codeurl: "https://github.com/liuweibupt/DLAFNet"
 citation_count: 11
+thumbnail: "papers/dlafnet.png"
 citation: "<b>W. Liu</b>, H. Wang, Y. Qiao, H. Zhang and J. Yang, &quot;DLAFNet: Direct LiDAR-Aerial Fusion Network for Semantic Segmentation of 2-D Aerial Image and 3-D LiDAR Point Cloud,&quot; <i>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing</i>, 2024."
 ---
 

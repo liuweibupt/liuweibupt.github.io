@@ -47,6 +47,12 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
+        {% if page.collection == 'publications' and page.thumbnail %}
+          <figure class="lw-single-paper-figure">
+            <img src="{{ page.thumbnail | prepend: "/images/" | prepend: base_path }}" alt="{{ page.title | strip_html }} thumbnail">
+          </figure>
+        {% endif %}
+
         {{ content }}
 
         {% if page.citation and page.paperurl %}
@@ -55,11 +61,12 @@ layout: default
           <p style="font-size: smaller">Recommended citation: {{ page.citation }} </p>
         {% endif %}
 
-        {% if page.citation_count or page.codeurl or page.paperurl %}
+        {% if page.citation_count or page.codeurl or page.paperurl or page.slidesurl %}
           <p class="lw-paper-meta">
             {% if page.citation_count %}<span>Citations snapshot: {{ page.citation_count }}</span>{% endif %}
             {% if page.codeurl %}<a href="{{ page.codeurl }}">Code</a>{% endif %}
             {% if page.paperurl %}<a href="{{ page.paperurl }}">Paper</a>{% endif %}
+            {% if page.slidesurl %}<a href="{{ page.slidesurl }}">Slides</a>{% endif %}
           </p>
         {% endif %}
 

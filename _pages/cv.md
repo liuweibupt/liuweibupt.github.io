@@ -110,6 +110,7 @@ redirect_from:
 - [THU-DSP-LAB/sfu](https://github.com/THU-DSP-LAB/sfu)：多精度特殊函数单元设计与实现。
 - [THU-DSP-LAB/Ventus-OpenCL-Testcase](https://github.com/THU-DSP-LAB/Ventus-OpenCL-Testcase)：Ventus OpenCL 测试用例。
 - [THU-DSP-LAB/ventus-pytorch](https://github.com/THU-DSP-LAB/ventus-pytorch)：Ventus PyTorch 软件栈与 TQP / GPU Tensor DB 相关工作。
+- [Humber-186/VeriHealthi](https://github.com/Humber-186/VeriHealthi)：2026 芯原杯全国嵌入式大赛二等奖开源代码。
 
 ## 论文与学术成果
 
@@ -139,7 +140,7 @@ redirect_from:
 ## 荣誉奖项
 
 - 全国大学生集成电路创新创业大赛一等奖（2025）
-- 芯原杯全国嵌入式大赛二等奖（2026）
+- 芯原杯全国嵌入式大赛二等奖（2026）[Code](https://github.com/Humber-186/VeriHealthi)
 - 北京市优秀毕业生（2024）
 - 华为 ICT 大赛全球总决赛二等奖（2023）
 - 北邮-华为“智能基座”先锋青年奖（2021 / 2022）

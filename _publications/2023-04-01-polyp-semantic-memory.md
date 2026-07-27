@@ -6,6 +6,7 @@ excerpt: "Semantic-memory-guided image representation for polyp segmentation. Ci
 date: 2023-04-01
 venue: "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
 citation_count: 8
+thumbnail: "papers/polyp-semantic-memory.svg"
 citation: "Z. Yin, R. Wei, K. Liang, Y. Lin, <b>W. Liu</b>, Z. Ma, M. Min and J. Guo, &quot;Semantic Memory Guided Image Representation for Polyp Segmentation,&quot; <i>ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing</i>, 2023."
 ---
 

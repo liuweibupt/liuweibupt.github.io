@@ -7,6 +7,7 @@ date: 2025-08-01
 venue: "IEEE Transactions on Very Large Scale Integration (VLSI) Systems"
 codeurl: "https://github.com/THU-DSP-LAB/ventus-gpgpu"
 citation_count: 6
+thumbnail: "papers/ventus-arch.png"
 citation: "J. Li, F. Yu, M. Ma, <b>W. Liu</b>, Y. Wang, H. Wu and H. He, &quot;RISC-V-Based GPGPU With Vector Capabilities for High-Performance Computing,&quot; <i>IEEE Transactions on Very Large Scale Integration (VLSI) Systems</i>, 2025."
 ---
 

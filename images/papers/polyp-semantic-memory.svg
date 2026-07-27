@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Semantic Memory Guided Representation thumbnail">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f8fbff"/>
+      <stop offset="0.55" stop-color="#eef6ff"/>
+      <stop offset="1" stop-color="#f7f3ff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0f172a" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" rx="42" fill="url(#bg)"/>
+  <circle cx="1020" cy="90" r="170" fill="#dc2626" opacity="0.14"/>
+  <circle cx="120" cy="610" r="210" fill="#14b8a6" opacity="0.10"/>
+  <g filter="url(#shadow)">
+    <rect x="64" y="70" width="1072" height="535" rx="34" fill="white" opacity="0.88"/>
+  </g>
+  <text x="96" y="135" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800" fill="#dc2626">PAPER HIGHLIGHT</text>
+  <text x="96" y="190" font-family="Inter, Arial, sans-serif" font-size="46" font-weight="800" fill="#0f172a">Semantic Memory Guided Representation</text>
+  <text x="96" y="236" font-family="Inter, Arial, sans-serif" font-size="24" fill="#475569">Polyp segmentation with memory-guided image features</text>
+  <g transform="translate(120 305)">
+    <rect x="0" y="0" width="300" height="210" rx="30" fill="#fee2e2" stroke="#f87171" stroke-width="4"/>
+    <ellipse cx="150" cy="105" rx="105" ry="74" fill="#fecaca"/>
+    <path d="M112 92 C135 40 215 58 220 125 C188 162 130 158 92 126 C88 112 96 102 112 92 Z" fill="#ef4444" opacity="0.9"/>
+    <path d="M122 97 C146 72 185 76 202 118" fill="none" stroke="#fff" stroke-width="8" opacity="0.75"/>
+    <g transform="translate(410 12)">
+      <rect x="0" y="0" width="110" height="52" rx="14" fill="#fee2e2" stroke="#dc2626" stroke-width="4"/>
+      <rect x="0" y="78" width="110" height="52" rx="14" fill="#fff7ed" stroke="#fb923c" stroke-width="4"/>
+      <rect x="0" y="156" width="110" height="52" rx="14" fill="#fef9c3" stroke="#eab308" stroke-width="4"/>
+      <text x="150" y="34" font-family="Inter, Arial" font-size="26" font-weight="800" fill="#0f172a">semantic memory</text>
+      <text x="150" y="112" font-family="Inter, Arial" font-size="26" font-weight="800" fill="#0f172a">feature retrieval</text>
+      <text x="150" y="190" font-family="Inter, Arial" font-size="26" font-weight="800" fill="#0f172a">segmentation head</text>
+    </g>
+    <path d="M320 105 H392" stroke="#94a3b8" stroke-width="8" stroke-linecap="round"/>
+    <path d="M378 84 L420 105 L378 126 Z" fill="#94a3b8"/>
+  </g>
+</svg>

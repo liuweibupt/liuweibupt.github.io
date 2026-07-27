@@ -7,6 +7,7 @@ date: 2023-07-16
 venue: "IEEE International Geoscience and Remote Sensing Symposium (IGARSS)"
 codeurl: "https://github.com/liuweibupt/DLAFNet"
 citation_count: 2
+thumbnail: "papers/dlafnet.png"
 citation: "<b>W. Liu</b>, H. Wang, Y. Qiao, B. Liang, J. Yang and H. Zhang, &quot;DLAFNet: A Direct Fusion Method of 2D Aerial Image and 3D LiDAR Point Cloud for Semantic Segmentation,&quot; <i>IGARSS 2023 - 2023 IEEE International Geoscience and Remote Sensing Symposium</i>, Oral Presentation, 2023."
 ---
 
