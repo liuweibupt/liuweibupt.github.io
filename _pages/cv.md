@@ -59,7 +59,7 @@ redirect_from:
 - 定位面积/功耗 Pareto 最优与面积最小 Tensor Core 配置；集成至 Ventus GPGPU 后占 SM 面积 27.7%。
 - 对比学术界 SOTA：FP8 面效提升 3.46×、能效提升 3.34×；FP4 面效提升 1.76×、能效提升 2.19×。
 - FP16 矩阵乘指令周期优化 16×，寄存器读写次数减少 9.14×；典型 AI 算子中 Attention 提升 2.13×、Linear 提升 3.87×。
-- 论文：W. Liu et al., *TensorForge: Systematic Design Space Exploration of Multi-Precision Tensor Cores for GPGPUs*, ICCAD under review.
+- 论文：W. Liu et al., *TensorForge: Systematic Design Space Exploration of Multi-Precision Tensor Cores for GPGPUs*, ICCAD 2026.
 
 **Tensor Core 数值精度建模（TensorGauge）**
 - 面向 NVIDIA Hopper / Blackwell Tensor Core 低精度计算路径，构建 CUDA 加速的 bit-level Tensor Core 数值模型，并接入 PyTorch 训练/推理流程。
@@ -117,7 +117,7 @@ redirect_from:
 ### Architecture / ML Systems
 1. J. Li, F. Yu, M. Ma, **W. Liu**, Y. Wang, H. Wu and H. He, “RISC-V-Based GPGPU With Vector Capabilities for High-Performance Computing,” *IEEE Transactions on Very Large Scale Integration (VLSI) Systems*, 2025. [Code](https://github.com/THU-DSP-LAB/ventus-gpgpu)
 2. **W. Liu**, “A Multi-Precision Reusable Tensor Core Design,” MICRO 2025 Tutorial.
-3. **W. Liu** et al., “TensorForge: Systematic Design Space Exploration of Multi-Precision Tensor Cores for GPGPUs,” ICCAD under review.
+3. **W. Liu** et al., “TensorForge: Systematic Design Space Exploration of Multi-Precision Tensor Cores for GPGPUs,” ICCAD 2026.
 4. **W. Liu** et al., “TensorGauge: A Pre-silicon End-to-end Framework for Quantifying Numerical Effects of Tensor Core Microarchitecture in GEMM,” ARITH 2026.
 
 ### Remote Sensing / Computer Vision
