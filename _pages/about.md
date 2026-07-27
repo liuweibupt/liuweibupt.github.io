@@ -23,8 +23,8 @@ redirect_from:
       <span class="lw-tag">Hardware/Software Co-design</span>
     </div>
     <div class="lw-actions">
-      <a class="lw-button" href="/cv/">View CV</a>
-      <a class="lw-button lw-button--ghost" href="/publications/">Publications</a>
+      <a class="lw-button" href="/publications/">Publications</a>
+      <a class="lw-button lw-button--ghost" href="/projects/">Open Source</a>
       <a class="lw-button lw-button--ghost" href="https://github.com/liuweibupt">GitHub</a>
     </div>
   </div>
