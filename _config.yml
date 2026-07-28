@@ -21,7 +21,7 @@ repository               : "liuweibupt/liuweibupt.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "liuwei-avatar.jpg"
+  avatar           :
   name             : "Liu Wei / 刘威"
   pronouns         : # example: "she/her"
   bio              : "Ph.D. student at Tsinghua University; GPGPU architecture, Tensor Core, and AI infra."

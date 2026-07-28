@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<section class="lw-hero">
+<section class="lw-hero lw-hero--solo">
   <div>
     <p class="lw-eyebrow">Tsinghua DSPLab · GPGPU Architecture · AI Infra</p>
     <h1 class="lw-title">刘威 / Wei Liu</h1>
@@ -28,10 +28,6 @@ redirect_from:
       <a class="lw-button lw-button--ghost" href="https://github.com/liuweibupt">GitHub</a>
     </div>
   </div>
-  <figure class="lw-portrait-card">
-    <img src="/images/liuwei-avatar.jpg" alt="Wei Liu public GitHub avatar">
-    <figcaption class="lw-portrait-caption">From AI to MLSys &amp; Architecture</figcaption>
-  </figure>
 </section>
 
 <section class="lw-section">

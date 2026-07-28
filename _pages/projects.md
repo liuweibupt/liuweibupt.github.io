@@ -8,16 +8,12 @@ hide_title: true
 
 {% include base_path %}
 
-<section class="lw-hero lw-hero--compact">
+<section class="lw-hero lw-hero--compact lw-hero--solo">
   <div>
     <p class="lw-eyebrow">Open Source · Reproducible Systems · GPU Research</p>
     <h1 class="lw-title">Open Source Projects</h1>
     <p class="lw-subtitle">Selected repositories related to GPGPU architecture, special-function units, OpenCL testcases, GPU tensor database workloads, and multimodal remote-sensing segmentation.</p>
   </div>
-  <figure class="lw-portrait-card">
-    <img src="/images/liuwei-avatar.jpg" alt="Wei Liu public GitHub avatar">
-    <figcaption class="lw-portrait-caption"><a href="https://github.com/liuweibupt">github.com/liuweibupt</a></figcaption>
-  </figure>
 </section>
 
 <section class="lw-section">

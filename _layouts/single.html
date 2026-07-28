@@ -61,12 +61,13 @@ layout: default
           <p style="font-size: smaller">Recommended citation: {{ page.citation }} </p>
         {% endif %}
 
-        {% if page.citation_count or page.codeurl or page.paperurl or page.slidesurl %}
+        {% if page.citation_count or page.codeurl or page.paperurl or page.slidesurl or page.blogurl %}
           <p class="lw-paper-meta">
             {% if page.citation_count %}<span>Citations snapshot: {{ page.citation_count }}</span>{% endif %}
             {% if page.codeurl %}<a href="{{ page.codeurl }}">Code</a>{% endif %}
             {% if page.paperurl %}<a href="{{ page.paperurl }}">Paper</a>{% endif %}
             {% if page.slidesurl %}<a href="{{ page.slidesurl }}">Slides</a>{% endif %}
+            {% if page.blogurl %}<a href="{{ page.blogurl }}">知乎解读</a>{% endif %}
           </p>
         {% endif %}
 

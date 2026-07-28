@@ -239,6 +239,10 @@
   grid-template-columns: minmax(0, 1.4fr) minmax(180px, 0.55fr);
 }
 
+.lw-hero--solo {
+  grid-template-columns: 1fr;
+}
+
 .lw-paper-meta {
   display: flex;
   flex-wrap: wrap;
