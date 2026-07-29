@@ -24,6 +24,7 @@ redirect_from:
     </div>
     <div class="lw-actions">
       <a class="lw-button" href="/publications/">Publications</a>
+      <a class="lw-button lw-button--ghost" href="/patents/">Patents</a>
       <a class="lw-button lw-button--ghost" href="/projects/">Open Source</a>
       <a class="lw-button lw-button--ghost" href="https://github.com/liuweibupt">GitHub</a>
     </div>
@@ -59,6 +60,14 @@ redirect_from:
     <div class="lw-timeline-item"><strong>2026 · 芯原杯</strong><span>全国嵌入式大赛二等奖。</span></div>
     <div class="lw-timeline-item"><strong>2025 · IC Competition</strong><span>全国大学生集成电路创新创业大赛一等奖。</span></div>
     <div class="lw-timeline-item"><strong>2023—Now · Ventus GPGPU</strong><span>Core member of Tsinghua “乘影” RISC-V open-source GPGPU project.</span></div>
+  </div>
+</section>
+
+<section class="lw-section">
+  <h2 class="lw-section-title">Selected Patents</h2>
+  <div class="lw-card">
+    <p>Selected patent applications cover tensor-computing units, GPGPU integration, multi-precision SFUs, GPU packaging/cache architecture, and optical-image/LiDAR remote-sensing fusion. Application numbers are omitted for privacy.</p>
+    <a class="lw-mini-link" href="/patents/">Patents Page →</a>
   </div>
 </section>
 
