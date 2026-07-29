@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="GVM paper thumbnail">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f8fbff"/>
+      <stop offset="0.55" stop-color="#eef6ff"/>
+      <stop offset="1" stop-color="#f5f3ff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0f172a" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" rx="42" fill="url(#bg)"/>
+  <circle cx="1030" cy="112" r="170" fill="#4f46e5" opacity="0.14"/>
+  <circle cx="130" cy="610" r="210" fill="#14b8a6" opacity="0.10"/>
+  <g filter="url(#shadow)">
+    <rect x="64" y="70" width="1072" height="535" rx="34" fill="white" opacity="0.9"/>
+  </g>
+  <text x="96" y="135" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800" fill="#4f46e5">ICCAD 2026 · VERIFICATION</text>
+  <text x="96" y="195" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="900" fill="#0f172a">GVM</text>
+  <text x="96" y="242" font-family="Inter, Arial, sans-serif" font-size="25" fill="#475569">Online Differential Verification for SIMT GPGPUs</text>
+  <g transform="translate(112 318)">
+    <rect x="0" y="0" width="250" height="170" rx="26" fill="#eef2ff" stroke="#6366f1" stroke-width="5"/>
+    <text x="52" y="64" font-family="Inter, Arial" font-size="28" font-weight="900" fill="#3730a3">GPGPU</text>
+    <text x="68" y="112" font-family="Inter, Arial" font-size="24" font-weight="800" fill="#475569">RTL / SIMT</text>
+    <rect x="410" y="0" width="250" height="170" rx="26" fill="#ecfeff" stroke="#06b6d4" stroke-width="5"/>
+    <text x="458" y="64" font-family="Inter, Arial" font-size="28" font-weight="900" fill="#0e7490">GVM</text>
+    <text x="442" y="112" font-family="Inter, Arial" font-size="24" font-weight="800" fill="#475569">online checker</text>
+    <rect x="820" y="0" width="250" height="170" rx="26" fill="#f0fdf4" stroke="#22c55e" stroke-width="5"/>
+    <text x="874" y="64" font-family="Inter, Arial" font-size="28" font-weight="900" fill="#15803d">Oracle</text>
+    <text x="876" y="112" font-family="Inter, Arial" font-size="24" font-weight="800" fill="#475569">differential</text>
+    <path d="M280 84 H380" stroke="#94a3b8" stroke-width="9" stroke-linecap="round"/>
+    <path d="M365 61 L410 84 L365 107 Z" fill="#94a3b8"/>
+    <path d="M690 84 H790" stroke="#94a3b8" stroke-width="9" stroke-linecap="round"/>
+    <path d="M775 61 L820 84 L775 107 Z" fill="#94a3b8"/>
+    <path d="M535 192 C535 250 250 250 250 192" fill="none" stroke="#6366f1" stroke-width="7" stroke-linecap="round" stroke-dasharray="18 16"/>
+    <path d="M945 192 C945 250 535 250 535 192" fill="none" stroke="#06b6d4" stroke-width="7" stroke-linecap="round" stroke-dasharray="18 16"/>
+  </g>
+</svg>

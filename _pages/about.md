@@ -99,6 +99,7 @@ redirect_from:
     <ul>
       <li><strong>TensorGauge</strong>: A pre-silicon end-to-end framework for quantifying numerical effects of Tensor Core microarchitecture in GEMM, ARITH 2026.</li>
       <li><strong>TensorForge</strong>: Systematic design space exploration of multi-precision Tensor Cores for GPGPUs, ICCAD 2026.</li>
+      <li><strong>GVM</strong>: Online differential verification for SIMT GPGPUs, ICCAD 2026.</li>
       <li><strong>RISC-V-Based GPGPU With Vector Capabilities for High-Performance Computing</strong>, IEEE TVLSI 2025.</li>
       <li><strong>DLAFNet</strong>: Direct LiDAR-aerial fusion for 2D/3D semantic segmentation, IGARSS 2023 Oral &amp; IEEE JSTARS 2024. <a href="https://github.com/liuweibupt/DLAFNet">Code</a></li>
       <li><strong>SeMask-Mask2Former</strong>, <strong>Semantic Memory Guided Image Representation</strong>, and <strong>ABCF</strong> are listed on the Publications page.</li>
