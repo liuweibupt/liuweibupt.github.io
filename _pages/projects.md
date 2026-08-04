@@ -19,6 +19,11 @@ hide_title: true
 <section class="lw-section">
   <div class="lw-card-grid">
     <article class="lw-card lw-project-card">
+      <h3><a href="https://github.com/liuweibupt/TensorForge">TensorForge</a></h3>
+      <p>Reusable multi-precision Tensor Core design and design-space exploration for GPGPUs.</p>
+      <a class="lw-mini-link" href="https://github.com/liuweibupt/TensorForge">GitHub →</a>
+    </article>
+    <article class="lw-card lw-project-card">
       <h3><a href="https://github.com/Humber-186/VeriHealthi">VeriHealthi</a></h3>
       <p>2026 芯原杯全国嵌入式大赛二等奖开源代码，面向穿戴式 IMU 健康感知、定点模型部署与 BLE 实板验证。</p>
       <a class="lw-mini-link" href="https://github.com/Humber-186/VeriHealthi">GitHub →</a>

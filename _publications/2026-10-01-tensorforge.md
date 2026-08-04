@@ -8,7 +8,10 @@ excerpt: "Accepted paper on systematic design-space exploration of reusable mult
 date: 2026-10-01
 venue: "IEEE/ACM International Conference on Computer-Aided Design (ICCAD)"
 thumbnail: "papers/tensorforge.svg"
+codeurl: "https://github.com/liuweibupt/TensorForge"
 citation: "<b>W. Liu</b> et al., &quot;TensorForge: Systematic Design Space Exploration of Multi-Precision Tensor Cores for GPGPUs,&quot; <i>IEEE/ACM International Conference on Computer-Aided Design (ICCAD)</i>, 2026."
 ---
 
 Reusable multi-precision Tensor Core design and design-space exploration for GPGPUs.
+
+- Code: [liuweibupt/TensorForge](https://github.com/liuweibupt/TensorForge)

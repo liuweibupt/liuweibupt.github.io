@@ -38,9 +38,10 @@ redirect_from:
       <h3>乘影 RISC-V 开源 GPGPU</h3>
       <p>参与 Ventus GPGPU 体系结构设计空间探索，面向 AI 负载分析 Vector、Tensor、SFU、SRAM 与显存带宽之间的协同关系。</p>
     </article>
-    <article class="lw-card">
-      <h3>TensorForge</h3>
+    <article class="lw-card lw-project-card">
+      <h3><a href="https://github.com/liuweibupt/TensorForge">TensorForge</a></h3>
       <p>设计支持 TF32、BF16、FP16、INT8/4、FP8/6/4 与 Binary 的可复用多精度 Tensor Core，并探索 18 种复用策略。</p>
+      <a class="lw-mini-link" href="https://github.com/liuweibupt/TensorForge">GitHub →</a>
     </article>
     <article class="lw-card">
       <h3>TensorGauge</h3>
@@ -75,6 +76,11 @@ redirect_from:
   <h2 class="lw-section-title">Open Source</h2>
   <div class="lw-card-grid">
     <article class="lw-card lw-project-card">
+      <h3><a href="https://github.com/liuweibupt/TensorForge">TensorForge</a></h3>
+      <p>多精度 Tensor Core 设计空间探索与可复用硬件结构代码。</p>
+      <a class="lw-mini-link" href="https://github.com/liuweibupt/TensorForge">GitHub →</a>
+    </article>
+    <article class="lw-card lw-project-card">
       <h3><a href="https://github.com/Humber-186/VeriHealthi">VeriHealthi</a></h3>
       <p>2026 芯原杯二等奖开源代码：穿戴式 IMU 健康感知与端侧模型部署。</p>
       <a class="lw-mini-link" href="https://github.com/Humber-186/VeriHealthi">GitHub →</a>
@@ -107,7 +113,7 @@ redirect_from:
   <div class="lw-card">
     <ul>
       <li><strong>TensorGauge</strong>: A pre-silicon end-to-end framework for quantifying numerical effects of Tensor Core microarchitecture in GEMM, ARITH 2026.</li>
-      <li><strong>TensorForge</strong>: Systematic design space exploration of multi-precision Tensor Cores for GPGPUs, ICCAD 2026.</li>
+      <li><strong>TensorForge</strong>: Systematic design space exploration of multi-precision Tensor Cores for GPGPUs, ICCAD 2026. <a href="https://github.com/liuweibupt/TensorForge">Code</a></li>
       <li><strong>GVM</strong>: Online differential verification for SIMT GPGPUs, ICCAD 2026.</li>
       <li><strong>RISC-V-Based GPGPU With Vector Capabilities for High-Performance Computing</strong>, IEEE TVLSI 2025.</li>
       <li><strong>DLAFNet</strong>: Direct LiDAR-aerial fusion for 2D/3D semantic segmentation, IGARSS 2023 Oral &amp; IEEE JSTARS 2024. <a href="https://github.com/liuweibupt/DLAFNet">Code</a></li>
