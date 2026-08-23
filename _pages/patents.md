@@ -44,6 +44,11 @@ hide_title: true
       <span class="lw-mini-link">SFU</span>
     </article>
     <article class="lw-card lw-project-card">
+      <h3>图形处理器封装系统及缓存数据访问方法、介质和设备</h3>
+      <p>GPU packaging system and cache-data access architecture for improving data movement and memory-system efficiency.</p>
+      <span class="lw-mini-link">Packaging / Cache</span>
+    </article>
+    <article class="lw-card lw-project-card">
       <h3>一种在有源中介层 TSV 邻近区域集成 SRAM 缓存的图形处理器封装系统及其访问方法</h3>
       <p>GPU packaging and SRAM cache integration method for bandwidth-sensitive architectures.</p>
       <span class="lw-mini-link">Packaging / Cache</span>
