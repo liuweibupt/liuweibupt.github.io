@@ -112,7 +112,7 @@ redirect_from:
   <h2 class="lw-section-title">Selected Publications</h2>
   <div class="lw-card">
     <ul>
-      <li><strong>TensorGauge</strong>: A pre-silicon end-to-end framework for quantifying numerical effects of Tensor Core microarchitecture in GEMM, ARITH 2026.</li>
+      <li><strong>TensorGauge</strong>: A pre-silicon end-to-end framework for quantifying numerical effects of Tensor Core microarchitecture in GEMM, ARITH 2026. <a href="https://mp.weixin.qq.com/s?__biz=MjM5NDczOTA4NQ%3D%3D&amp;mid=2447904996&amp;idx=1&amp;sn=574c1528c2a0d1efdc26302dc46c8c82">NeuralTalk 报道</a></li>
       <li><strong>TensorForge</strong>: Systematic design space exploration of multi-precision Tensor Cores for GPGPUs, ICCAD 2026. <a href="https://github.com/liuweibupt/TensorForge">Code</a></li>
       <li><strong>GVM</strong>: Online differential verification for SIMT GPGPUs, ICCAD 2026.</li>
       <li><strong>RISC-V-Based GPGPU With Vector Capabilities for High-Performance Computing</strong>, IEEE TVLSI 2025.</li>

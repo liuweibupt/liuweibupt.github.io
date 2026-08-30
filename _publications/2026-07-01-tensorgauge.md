@@ -9,9 +9,12 @@ paperurl: "https://arith2026.org/papers/TensorGauge%21%20A%20Pre-silicon%20End-t
 thumbnail: "papers/tensorgauge-slides.png"
 slidesurl: "https://www.arith2026.org/slides/session_7_1_Liu.pdf"
 blogurl: "https://zhuanlan.zhihu.com/p/2055039798231012182"
+newsurl: "https://mp.weixin.qq.com/s?__biz=MjM5NDczOTA4NQ%3D%3D&mid=2447904996&idx=1&sn=574c1528c2a0d1efdc26302dc46c8c82"
+newslabel: "NeuralTalk 报道"
 citation: "<b>W. Liu</b> et al., &quot;TensorGauge: A Pre-silicon End-to-end Framework for Quantifying Numerical Effects of Tensor Core Microarchitecture in GEMM,&quot; <i>IEEE Symposium on Computer Arithmetic (ARITH)</i>, 2026."
 ---
 
 CUDA-accelerated bit-level Tensor Core numerical model integrated with PyTorch for end-to-end training and inference evaluation.
 
 - 知乎解读：[TensorGauge 论文解释](https://zhuanlan.zhihu.com/p/2055039798231012182)
+- 媒体报道：[NeuralTalk 报道](https://mp.weixin.qq.com/s?__biz=MjM5NDczOTA4NQ%3D%3D&mid=2447904996&idx=1&sn=574c1528c2a0d1efdc26302dc46c8c82)
