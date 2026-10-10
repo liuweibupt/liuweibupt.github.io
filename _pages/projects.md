@@ -21,6 +21,7 @@ hide_title: true
     <article class="lw-card lw-project-card">
       <h3><a href="https://github.com/liuweibupt/TensorForge">TensorForge</a></h3>
       <p>Reusable multi-precision Tensor Core design and design-space exploration for GPGPUs.</p>
+      <a class="lw-mini-link" href="/TensorForge/">Interactive Explorer →</a>
       <a class="lw-mini-link" href="https://github.com/liuweibupt/TensorForge">GitHub →</a>
     </article>
     <article class="lw-card lw-project-card">

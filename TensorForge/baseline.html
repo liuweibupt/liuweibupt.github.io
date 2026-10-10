@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TensorForge Baseline Comparison</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="layout">
+      <nav class="top-nav" aria-label="TensorForge navigation">
+        <a href="../">← Wei Liu</a>
+        <a href="index.html">Query</a>
+        <a href="ppa.html">PPA Explorer</a>
+        <a href="baseline.html" aria-current="page">Baseline Compare</a>
+        <a href="breakdown.html">Breakdown</a>
+        <a href="https://github.com/liuweibupt/TensorForge">GitHub ↗</a>
+      </nav>
+      <section class="hero">
+        <h1>TensorForge Baseline Comparison</h1>
+        <p>Compare the released baseline dot-product implementation with TensorForge wrappers across K. These are the repository’s synthesis comparison rows, not a cross-paper technology-normalized comparison.</p>
+      </section>
+      <section class="panel filters">
+        <h2>Comparison Filters</h2>
+        <form id="baseline-filter-form" class="chart-filter-form">
+          <label>Precision <select id="baseline-precision"></select></label>
+          <label>Metric <select id="baseline-metric"><option value="area_um2">Area (um²)</option><option value="power_total_mw">Power (mW)</option></select></label>
+        </form>
+      </section>
+      <section class="panel chart-panel">
+        <h2>Baseline vs TensorForge</h2>
+        <svg id="baseline-chart" class="chart-svg" role="group" aria-label="Baseline and TensorForge comparison chart" viewBox="0 0 960 480"></svg>
+        <div id="baseline-detail" class="detail-box" role="status" aria-live="polite">Loading baseline comparison data…</div>
+      </section>
+      <footer class="panel provenance">
+        <h2>About the data</h2>
+        <p>TensorForge explores reusable multi-precision Tensor Core microarchitectures for GPGPUs. This explorer presents the released synthesis datasets and follows the original query behavior.</p>
+        <p>“Measured” refers to synthesis reports from Design Compiler under TSMC 22 nm assumptions, rather than measurements from fabricated silicon. Derived arrays scale a synthesized dot-product unit by M × N; predicted units use precomputed estimates from the released cost model.</p>
+        <div class="source-links">
+          <a href="data/provenance.json">Dataset provenance</a>
+          <a href="data/model-metrics.json">Model validation metrics</a>
+          <a href="data/model-formula.txt">Model formulas</a>
+          <a href="data/clock_gated_area_power_measurements.csv">Clock-gated measurements (CSV)</a>
+          <a href="https://github.com/liuweibupt/TensorForge#how-to-inspect-the-website-results">Repository guide</a>
+        </div>
+      </footer>
+      <noscript><p class="detail-box error-card">Enable JavaScript to query the datasets and render the interactive charts. The source data remain available through the links above.</p></noscript>
+    </main>
+    <script src="static-api.js"></script>
+    <script src="charts.js"></script>
+  </body>
+</html>

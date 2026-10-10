@@ -1,0 +1,157 @@
+Stage-A (single-mode):
+  ln(area_value)  = b0 + Σ bi * φi(x(m))
+  ln(total_value) = c0 + Σ ci * φi(x(m))
+
+Stage-B (reuse ratio):
+  ln(rhoA) = d0 + Σ di * ψi(u(M,s))
+  ln(rhoP) = e0 + Σ ei * ψi(u(M,s))
+
+Final:
+  A_ded_hat = Σ_m exp(f_A(x(m)))
+  P_ded_hat = Σ_m exp(f_P(x(m)))
+  A_reuse_hat = exp(g_A(u)) * A_ded_hat
+  P_reuse_hat = exp(g_P(u)) * P_ded_hat
+
+Stage-A area coefficients (sorted by |coef|):
+  intercept=6.85331
+  0.376968 * log2_dimK
+  -0.367071 * mode_INT4
+  -0.333688 * mode_MXFP4LUT
+  -0.296836 * midMat_9
+  0.284028 * mx_noMXnoNV
+  0.284028 * midMat_26
+  0.253522 * norm_kind_FP32
+  -0.253522 * acc_kind_INT32
+  -0.253522 * out_kind_INT32
+  0.194396 * mode_FP16
+  0.167327 * midMat_22
+  0.167327 * mode_MXFP8
+  0.113549 * norm_kind_8
+  0.113549 * mode_INT8
+  0.0990035 * mode_MXFP6
+  0.0990035 * midMat_17
+  0.0591254 * out_kind_FP32
+  0.0368519 * mode_MXFP4
+  -0.0305059 * mx_withMXnoNV
+  0.00140245 * dimK
+  5.86519e-05 * clk_mhz
+
+Stage-A power coefficients (sorted by |coef|):
+  intercept=-1.6197
+  0.417548 * log2_dimK
+  -0.377974 * mode_INT4
+  -0.357083 * mode_MXFP4LUT
+  0.332131 * mx_noMXnoNV
+  0.332131 * midMat_26
+  -0.277681 * midMat_9
+  0.208021 * mode_FP16
+  -0.192574 * out_kind_INT32
+  0.192574 * norm_kind_FP32
+  -0.192574 * acc_kind_INT32
+  0.185399 * norm_kind_8
+  0.185399 * mode_INT8
+  -0.139557 * mx_withMXnoNV
+  0.0975938 * midMat_22
+  0.0975938 * mode_MXFP8
+  0.0794019 * mode_MXFP4
+  0.0405306 * mode_MXFP6
+  0.0405306 * midMat_17
+  -0.015447 * out_kind_FP32
+  0.000791295 * dimK
+  0.000729067 * clk_mhz
+
+Stage-B ln(rhoA) coefficients (sorted by |coef|):
+  intercept=-0.550829
+  -0.175925 * log2_dimK
+  0.100552 * P_ded_max
+  0.096873 * share_mul
+  0.096873 * share_exp
+  0.0898625 * P_dom_frac
+  0.0694317 * midMat_26
+  -0.0694317 * out_kind_INT32
+  0.0694317 * has_fp
+  0.0694317 * share_fp_acc
+  0.0694317 * share_norm_align
+  0.058208 * P_ded_std
+  -0.0468005 * P_int_ded_hat
+  -0.0392113 * P_ded_min
+  -0.0368525 * P_ded_hat
+  0.0309893 * A_dom_frac
+  -0.0236488 * fp_mantissa_groups
+  -0.0236488 * fp_exponent_groups
+  -0.0226529 * n_modes_unique
+  -0.0226529 * mux_inputs
+  -0.0226529 * n_modes_total
+  -0.0220636 * dimK
+  -0.0144487 * mx_noMXnoNV
+  -0.0105156 * count_MXFP8
+  -0.0105156 * count_MXFP6
+  -0.0105156 * count_MXFP4
+  0.00994801 * P_fp_ded_hat
+  0.00774489 * count_BF16
+  -0.00734817 * fp_mantissa_bits_total
+  -0.00708041 * mx_withMXnoNV
+  0.00597502 * int_bits_total
+  -0.00343518 * mx_withMX
+  0.000497919 * has_int
+  0.000497919 * share_int_acc
+  0.000497919 * count_INT8
+  0.000497919 * count_INT4
+  -0.000400084 * A_ded_std
+  0.000165088 * A_ded_min
+  0.00015391 * A_int_ded_hat
+  0.000153114 * count_FP16
+  -0.000113332 * clk_mhz
+  9.99734e-05 * A_ded_max
+  8.01669e-05 * A_ded_hat
+  -7.3744e-05 * A_fp_ded_hat
+  0 * share_adder_tree
+  0 * count_MXFP4LUT
+
+Stage-B ln(rhoP) coefficients (sorted by |coef|):
+  intercept=-0.902349
+  -0.222115 * log2_dimK
+  0.0991403 * midMat_26
+  -0.0991403 * out_kind_INT32
+  0.0991403 * has_fp
+  0.0991403 * share_norm_align
+  0.0991403 * share_fp_acc
+  0.0892903 * P_ded_max
+  0.0451705 * share_mul
+  0.0451705 * share_exp
+  0.0431521 * P_dom_frac
+  -0.0416206 * P_ded_min
+  -0.0341076 * fp_mantissa_bits_total
+  -0.0311413 * P_int_ded_hat
+  -0.0296553 * P_ded_hat
+  0.0266333 * P_ded_std
+  -0.0180868 * dimK
+  0.0127238 * mx_noMXnoNV
+  -0.0118101 * count_FP16
+  0.0115192 * count_BF16
+  0.0110921 * A_dom_frac
+  0.00703601 * mx_withMX
+  -0.00647613 * mx_withMXnoNV
+  0.00148595 * P_fp_ded_hat
+  0.00139503 * n_modes_total
+  0.00139503 * mux_inputs
+  0.00139503 * n_modes_unique
+  0.00138871 * fp_mantissa_groups
+  0.00138871 * fp_exponent_groups
+  0.000559882 * count_MXFP8
+  0.000559882 * count_MXFP4
+  0.000559882 * count_MXFP6
+  0.000237977 * A_ded_min
+  0.000136146 * A_int_ded_hat
+  -0.00012674 * A_ded_std
+  7.76778e-05 * A_ded_hat
+  -5.84687e-05 * A_fp_ded_hat
+  -3.79913e-05 * clk_mhz
+  3.78986e-05 * int_bits_total
+  -2.18148e-05 * A_ded_max
+  3.15821e-06 * share_int_acc
+  3.15821e-06 * has_int
+  3.15821e-06 * count_INT4
+  3.15821e-06 * count_INT8
+  0 * share_adder_tree
+  0 * count_MXFP4LUT

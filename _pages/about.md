@@ -41,6 +41,7 @@ redirect_from:
     <article class="lw-card lw-project-card">
       <h3><a href="https://github.com/liuweibupt/TensorForge">TensorForge</a></h3>
       <p>设计支持 TF32、BF16、FP16、INT8/4、FP8/6/4 与 Binary 的可复用多精度 Tensor Core，并探索 18 种复用策略。</p>
+      <a class="lw-mini-link" href="/TensorForge/">Interactive Explorer →</a>
       <a class="lw-mini-link" href="https://github.com/liuweibupt/TensorForge">GitHub →</a>
     </article>
     <article class="lw-card">
@@ -78,6 +79,7 @@ redirect_from:
     <article class="lw-card lw-project-card">
       <h3><a href="https://github.com/liuweibupt/TensorForge">TensorForge</a></h3>
       <p>多精度 Tensor Core 设计空间探索与可复用硬件结构代码。</p>
+      <a class="lw-mini-link" href="/TensorForge/">Interactive Explorer →</a>
       <a class="lw-mini-link" href="https://github.com/liuweibupt/TensorForge">GitHub →</a>
     </article>
     <article class="lw-card lw-project-card">
@@ -113,7 +115,7 @@ redirect_from:
   <div class="lw-card">
     <ul>
       <li><strong>TensorGauge</strong>: A pre-silicon end-to-end framework for quantifying numerical effects of Tensor Core microarchitecture in GEMM, ARITH 2026. <a href="https://mp.weixin.qq.com/s?__biz=MjM5NDczOTA4NQ%3D%3D&amp;mid=2447904996&amp;idx=1&amp;sn=574c1528c2a0d1efdc26302dc46c8c82">NeuralTalk 报道</a></li>
-      <li><strong>TensorForge</strong>: Systematic design space exploration of multi-precision Tensor Cores for GPGPUs, ICCAD 2026. <a href="https://github.com/liuweibupt/TensorForge">Code</a></li>
+      <li><strong>TensorForge</strong>: Systematic design space exploration of multi-precision Tensor Cores for GPGPUs, ICCAD 2026. <a href="/TensorForge/">Explorer</a> · <a href="https://github.com/liuweibupt/TensorForge">Code</a></li>
       <li><strong>GVM</strong>: Online differential verification for SIMT GPGPUs, ICCAD 2026.</li>
       <li><strong>RISC-V-Based GPGPU With Vector Capabilities for High-Performance Computing</strong>, IEEE TVLSI 2025.</li>
       <li><strong>DLAFNet</strong>: Direct LiDAR-aerial fusion for 2D/3D semantic segmentation, IGARSS 2023 Oral &amp; IEEE JSTARS 2024. <a href="https://github.com/liuweibupt/DLAFNet">Code</a></li>

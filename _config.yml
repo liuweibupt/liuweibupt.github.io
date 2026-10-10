@@ -168,6 +168,8 @@ exclude:
   - node_modules
   - package.json
   - tmp
+  - tools
+  - tests
   - vendor
 keep_files:
   - .git

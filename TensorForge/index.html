@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TensorForge · Design Space Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="layout">
+      <nav class="top-nav" aria-label="TensorForge navigation">
+        <a href="../">← Wei Liu</a>
+        <a href="index.html" aria-current="page">Query</a>
+        <a href="ppa.html">PPA Explorer</a>
+        <a href="baseline.html">Baseline Compare</a>
+        <a href="breakdown.html">Breakdown</a>
+        <a href="https://github.com/liuweibupt/TensorForge">GitHub ↗</a>
+      </nav>
+      <section class="hero">
+        <p class="eyebrow">Multi-precision Tensor Core design space exploration</p>
+        <h1>TensorForge</h1>
+        <p>Explore synthesis-backed area and power data, scale measured units into arrays, and inspect optional cost-model estimates.</p>
+        <p class="hero-note">PPA results shown here are synthesized by <strong>DC (Design Compiler)</strong> under <strong>TSMC 22nm</strong> assumptions.</p>
+      </section>
+      <section class="panel filters">
+        <h2>Query Controls</h2>
+        <form id="query-form">
+          <label>M <select name="m" id="dim-m"></select></label>
+          <label>N <select name="n" id="dim-n"></select></label>
+          <label>K <select name="k" id="dim-k"></select></label>
+          <label>Clock (MHz) <select name="clk_mhz" id="clk-mhz"></select></label>
+          <label>Precision <select name="precision_name" id="precision-name"></select></label>
+          <label>MX <select name="mx" id="mx-select"></select></label>
+          <label>NV <select name="nv" id="nv-select"></select></label>
+          <label>Norm <select name="norm_kind" id="norm-kind"></select></label>
+          <label>Acc <select name="acc_kind" id="acc-kind"></select></label>
+          <label>Out <select name="out_kind" id="out-kind"></select></label>
+          <label>midMat <select name="midmat" id="midmat-select"></select></label>
+          <label>Prediction Fallback <select name="allow_predicted" id="allow-predicted"></select></label>
+          <button type="submit">Run Query</button>
+        </form>
+      </section>
+      <details class="panel query-help">
+        <summary>How to read a query</summary>
+        <p>M × N is the dot-product unit count; K is the dot-product length. MX/NV, normalization, accumulator, output, and midMat options retain the configuration fields from the release.</p>
+        <ul>
+          <li><strong>Measured Array:</strong> a matching synthesized array; displayed per-unit values divide its area and power by M × N.</li>
+          <li><strong>Derived from Measured Unit:</strong> array area and power equal M × N times the synthesized unit values; array interconnect and integration overhead are not modeled.</li>
+          <li><strong>Predicted Unit:</strong> a released, precomputed cost-model estimate, scaled by M × N. Unavailable estimates are not generated on demand. Disable prediction fallback to restrict results to measured arrays or measured-unit derivations.</li>
+        </ul>
+        <p>Selecting a combination does not guarantee a measured result. The result type and formulas below show which data support each answer.</p>
+      </details>
+      <section class="panel metrics" aria-live="polite" aria-busy="true">
+        <h2>Results</h2>
+        <div id="result-cards" class="cards"><p>Loading query data…</p></div>
+        <pre id="result-formulas" class="formulas"></pre>
+      </section>
+      <footer class="panel provenance">
+        <h2>About the data</h2>
+        <p>TensorForge explores reusable multi-precision Tensor Core microarchitectures for GPGPUs. This explorer presents the released synthesis datasets and follows the original query behavior.</p>
+        <p>“Measured” refers to synthesis reports from Design Compiler under TSMC 22 nm assumptions, rather than measurements from fabricated silicon. Derived arrays scale a synthesized dot-product unit by M × N; predicted units use precomputed estimates from the released cost model.</p>
+        <div class="source-links">
+          <a href="data/provenance.json">Dataset provenance</a>
+          <a href="data/model-metrics.json">Model validation metrics</a>
+          <a href="data/model-formula.txt">Model formulas</a>
+          <a href="data/clock_gated_area_power_measurements.csv">Clock-gated measurements (CSV)</a>
+          <a href="https://github.com/liuweibupt/TensorForge#how-to-inspect-the-website-results">Repository guide</a>
+        </div>
+      </footer>
+      <noscript><p class="detail-box error-card">Enable JavaScript to query the datasets and render the interactive charts. The source data remain available through the links above.</p></noscript>
+    </main>
+    <script src="static-api.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

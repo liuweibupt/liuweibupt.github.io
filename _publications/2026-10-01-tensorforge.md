@@ -14,4 +14,5 @@ citation: "<b>W. Liu</b> et al., &quot;TensorForge: Systematic Design Space Expl
 
 Reusable multi-precision Tensor Core design and design-space exploration for GPGPUs.
 
+- Interactive explorer: [query, PPA, baseline comparison, and area breakdown](/TensorForge/)
 - Code: [liuweibupt/TensorForge](https://github.com/liuweibupt/TensorForge)
