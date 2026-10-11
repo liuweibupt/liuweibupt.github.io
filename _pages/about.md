@@ -59,7 +59,6 @@ redirect_from:
   <h2 class="lw-section-title">Selected Timeline</h2>
   <div class="lw-timeline">
     <div class="lw-timeline-item"><strong>2026 · ARITH</strong><span>TensorGauge accepted by IEEE Symposium on Computer Arithmetic.</span></div>
-    <div class="lw-timeline-item"><strong>2026 · 芯原杯</strong><span>全国嵌入式大赛二等奖。</span></div>
     <div class="lw-timeline-item"><strong>2025 · IC Competition</strong><span>全国大学生集成电路创新创业大赛一等奖。</span></div>
     <div class="lw-timeline-item"><strong>2023—Now · Ventus GPGPU</strong><span>Core member of Tsinghua “乘影” RISC-V open-source GPGPU project.</span></div>
   </div>
@@ -81,11 +80,6 @@ redirect_from:
       <p>多精度 Tensor Core 设计空间探索与可复用硬件结构代码。</p>
       <a class="lw-mini-link" href="/TensorForge/">Interactive Explorer →</a>
       <a class="lw-mini-link" href="https://github.com/liuweibupt/TensorForge">GitHub →</a>
-    </article>
-    <article class="lw-card lw-project-card">
-      <h3><a href="https://github.com/Humber-186/VeriHealthi">VeriHealthi</a></h3>
-      <p>2026 芯原杯二等奖开源代码：穿戴式 IMU 健康感知与端侧模型部署。</p>
-      <a class="lw-mini-link" href="https://github.com/Humber-186/VeriHealthi">GitHub →</a>
     </article>
     <article class="lw-card lw-project-card">
       <h3><a href="https://github.com/liuweibupt/DLAFNet">DLAFNet</a></h3>
