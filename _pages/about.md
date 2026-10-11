@@ -111,6 +111,7 @@ redirect_from:
       <li><strong>TensorGauge</strong>: A pre-silicon end-to-end framework for quantifying numerical effects of Tensor Core microarchitecture in GEMM, ARITH 2026. <a href="https://mp.weixin.qq.com/s?__biz=MjM5NDczOTA4NQ%3D%3D&amp;mid=2447904996&amp;idx=1&amp;sn=574c1528c2a0d1efdc26302dc46c8c82">NeuralTalk 报道</a></li>
       <li><strong>TensorForge</strong>: Systematic design space exploration of multi-precision Tensor Cores for GPGPUs, ICCAD 2026. <a href="/TensorForge/">Explorer</a> · <a href="https://github.com/liuweibupt/TensorForge">Code</a></li>
       <li><strong>GVM</strong>: Online differential verification for SIMT GPGPUs, ICCAD 2026.</li>
+      <li><strong>EdgeRV</strong>: A scalable meta-instruction-driven RISC-V coprocessor for edge DNN inference, <em>Journal of Systems Architecture</em>, 2026. <a href="https://doi.org/10.1016/j.sysarc.2026.104033">Paper</a></li>
       <li><strong>RISC-V-Based GPGPU With Vector Capabilities for High-Performance Computing</strong>, IEEE TVLSI 2025.</li>
       <li><strong>DLAFNet</strong>: Direct LiDAR-aerial fusion for 2D/3D semantic segmentation, IGARSS 2023 Oral &amp; IEEE JSTARS 2024. <a href="https://github.com/liuweibupt/DLAFNet">Code</a></li>
       <li><strong>SeMask-Mask2Former</strong>, <strong>Semantic Memory Guided Image Representation</strong>, and <strong>ABCF</strong> are listed on the Publications page.</li>
