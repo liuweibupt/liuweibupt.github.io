@@ -10,9 +10,15 @@ redirect_from:
 
 # About Me
 
-I am a Ph.D. student in DSPLab at Tsinghua University's School of Integrated Circuits, advised by Hu He. My research focuses on GPU architecture, simulation, and modeling. I explore GPU designs for emerging AI workloads and study how new packaging technologies and materials affect architectural trade-offs.
+I am a Ph.D. student in DSPLab at Tsinghua University's School of Integrated Circuits, advised by Hu He.
 
 I am a core contributor to [Ventus](https://github.com/THU-DSP-LAB/ventus-gpgpu), an open-source RISC-V GPGPU. I work on the Ventus hardware backend, including execution units and AI-oriented compute and memory-access components.
+
+## Research Interests
+
+My research focuses on GPU architecture, simulation, and modeling. I explore GPU designs for emerging AI workloads and study how advanced packaging and new materials affect architectural trade-offs.
+
+I am particularly interested in multi-precision Tensor Cores, special-function units, and how numerical precision affects model training and inference.
 
 ## Talks and Tutorials
 {: #tutorials}
