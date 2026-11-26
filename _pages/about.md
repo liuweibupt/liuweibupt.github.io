@@ -16,7 +16,7 @@ I am a Ph.D. student in DSPLab at Tsinghua University's School of Integrated Cir
 - **Simulation and modeling**, including how numerical precision affects model training and inference.
 - **Design-space exploration** for emerging AI workloads and advanced packaging.
 
-I am a core contributor to [Ventus](https://github.com/THU-DSP-LAB/ventus-gpgpu), an open-source RISC-V GPGPU. I lead a team developing execution units (including SFUs) and AI-oriented compute and memory-access components for its hardware backend.
+I am a core contributor to [Ventus](https://github.com/THU-DSP-LAB/ventus-gpgpu), an open-source RISC-V GPGPU. I lead the development of execution units (including SFUs) and AI-oriented compute and memory-access components for its hardware backend.
 
 ## Talks and Tutorials
 {: #tutorials}
