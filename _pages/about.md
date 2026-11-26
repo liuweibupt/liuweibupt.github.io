@@ -43,6 +43,12 @@ I am a core contributor to [Ventus](https://github.com/THU-DSP-LAB/ventus-gpgpu)
 
 - **2025–2026** · National Scholarship
 - **2025** · First Prize, National Undergraduate Integrated Circuit Innovation and Entrepreneurship Competition
+- **2024–2025** · First-Class Scholarship, Tsinghua University
+- **2024** · Outstanding Graduate of Beijing
+- **2023** · Second Prize, Huawei ICT Competition Global Final
+- **2023** · Second Prize, China College Students’ Service Outsourcing Innovation and Entrepreneurship Competition
+- **2022** · Second Prize, Chinese Collegiate Computing Competition (4C)
+- **Undergraduate study** · First-Class Scholarship, Beijing University of Posts and Telecommunications (awarded twice, top 3% in the major)
 
 ## Education
 
