@@ -31,9 +31,9 @@ hide_title: true
     </article>
     <article class="lw-card lw-project-card">
       <h3><a href="https://github.com/THU-DSP-LAB/ventus-gpgpu">ventus-gpgpu</a></h3>
-      <p>Tsinghua “乘影” RISC-V open-source GPGPU project for architecture research and high-performance computing.</p>
+      <p>Tsinghua University's open-source Ventus GPGPU project, based on RISC-V, for architecture research and high-performance computing.</p>
       <a class="lw-mini-link" href="https://github.com/THU-DSP-LAB/ventus-gpgpu">GitHub →</a>
-      <a class="lw-mini-link" href="https://zhuanlan.zhihu.com/p/2096556999823704507">Ventus Tensor Core 设计解读 →</a>
+      <a class="lw-mini-link" href="https://zhuanlan.zhihu.com/p/2096556999823704507">Ventus Tensor Core Design Write-up →</a>
     </article>
     <article class="lw-card lw-project-card">
       <h3><a href="https://github.com/THU-DSP-LAB/sfu">sfu</a></h3>

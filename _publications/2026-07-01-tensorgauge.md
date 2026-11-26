@@ -11,11 +11,11 @@ thumbnail: "papers/tensorgauge-slides.png"
 slidesurl: "https://www.arith2026.org/slides/session_7_1_Liu.pdf"
 blogurl: "https://zhuanlan.zhihu.com/p/2055039798231012182"
 newsurl: "https://mp.weixin.qq.com/s?__biz=MjM5NDczOTA4NQ%3D%3D&mid=2447904996&idx=1&sn=574c1528c2a0d1efdc26302dc46c8c82"
-newslabel: "NeuralTalk 报道"
+newslabel: "NeuralTalk Coverage"
 citation: "<b>W. Liu</b>, Y. Yu, Q. Liu, X. Song, M. Ma, Y. Wang, H. Sun, Y. Hou, and H. He, &quot;TensorGauge: A Pre-silicon End-to-end Framework for Quantifying Numerical Effects of Tensor Core Microarchitecture in GEMM,&quot; <i>2026 IEEE 33rd Symposium on Computer Arithmetic (ARITH)</i>, pp. 145–152, 2026."
 ---
 
 CUDA-accelerated bit-level Tensor Core numerical model integrated with PyTorch for end-to-end training and inference evaluation.
 
-- 知乎解读：[TensorGauge 论文解释](https://zhuanlan.zhihu.com/p/2055039798231012182)
-- 媒体报道：[NeuralTalk 报道](https://mp.weixin.qq.com/s?__biz=MjM5NDczOTA4NQ%3D%3D&mid=2447904996&idx=1&sn=574c1528c2a0d1efdc26302dc46c8c82)
+- [TensorGauge Write-up on Zhihu](https://zhuanlan.zhihu.com/p/2055039798231012182)
+- [NeuralTalk Coverage](https://mp.weixin.qq.com/s?__biz=MjM5NDczOTA4NQ%3D%3D&mid=2447904996&idx=1&sn=574c1528c2a0d1efdc26302dc46c8c82)

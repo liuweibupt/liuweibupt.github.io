@@ -39,14 +39,16 @@ function setBusy(busy) {
 
 function renderCards(result) {
   const cards = document.getElementById('result-cards');
+  // The query API returns the release's bilingual status message.
+  const statusMessage = result.message.split(' / ').pop();
   if (result.status === 'not_found') {
-    cards.replaceChildren(resultCard('Query Status', result.message, 'error-card'));
+    cards.replaceChildren(resultCard('Query Status', statusMessage, 'error-card'));
     document.getElementById('result-formulas').textContent = 'No exact or estimated result available. Try another configuration or enable prediction fallback.';
     return;
   }
 
   const rows = [
-    ['Query Status', result.message],
+    ['Query Status', statusMessage],
     ['Result Type', resultTypes[result.result_type] || result.result_type, `source-${result.result_type}`],
     ['Tile Count (M × N)', String(result.tile_count)],
     ['Unit Area', `${result.unit_area_um2.toFixed(6)} µm²`],

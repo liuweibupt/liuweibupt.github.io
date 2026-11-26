@@ -155,25 +155,82 @@
   padding-left: 1.1rem;
 }
 
-.page.page--home {
-  float: none;
-  width: 100%;
-  max-width: 52rem;
-  margin: 0 auto;
-  padding: 0 0 2rem;
+#main.home-layout {
+  margin-top: 1rem;
 
-  h1 {
-    margin: 0 0 1rem;
-    font-size: clamp(2rem, 4vw, 2.6rem);
+  @include breakpoint($large) {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 4.7fr);
+    column-gap: 3rem;
+    align-items: start;
   }
 
-  h2 {
-    margin-top: 2rem;
-    font-size: 1.25rem;
+  > .sidebar,
+  > .page {
+    float: none;
+    width: auto;
+    padding: 0;
   }
 
-  li + li {
-    margin-top: 0.45rem;
+  > .sidebar {
+    position: static;
+    height: auto;
+
+    .author__content,
+    .author__urls-wrapper {
+      display: block;
+      padding: 0;
+    }
+
+    .author__name {
+      font-size: 1.2rem;
+      margin: 0 0 0.35rem;
+    }
+
+    .author__bio {
+      margin: 0 0 0.5rem;
+    }
+
+    .author__urls-wrapper button {
+      display: none;
+    }
+
+    .author__urls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0 0.85rem;
+      position: static;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      box-shadow: none;
+
+      @include breakpoint($large) {
+        display: block;
+      }
+    }
+  }
+
+  .page__content {
+    h1,
+    h2 {
+      margin: 1em 0 0.5em;
+      padding-bottom: 0.5em;
+      border-bottom: 1px solid $border-color;
+      font-size: 1.4rem;
+    }
+
+    h1:first-child {
+      margin-top: 0;
+    }
+
+    p {
+      margin-bottom: 0.5em;
+    }
+
+    li + li {
+      margin-top: 0.45em;
+    }
   }
 }
 

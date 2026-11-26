@@ -16,6 +16,7 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
+{% assign css_version = site.time | date: "%s" %}
+<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css?v={{ site.github.build_revision | default: css_version | escape }}">
 
 <meta http-equiv="cleartype" content="on">

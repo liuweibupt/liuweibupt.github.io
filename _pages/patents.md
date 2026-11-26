@@ -19,42 +19,42 @@ hide_title: true
 <section class="lw-section">
   <div class="lw-card-grid">
     <article class="lw-card lw-project-card">
-      <h3>一种张量计算方法、装置、存储介质和计算机设备</h3>
+      <h3>Tensor Computation Method, Apparatus, Storage Medium, and Computing Device</h3>
       <p>Tensor-computing method and system-level implementation for AI workloads.</p>
       <span class="lw-mini-link">Tensor Computing</span>
     </article>
     <article class="lw-card lw-project-card">
-      <h3>一种张量计算协处理器</h3>
+      <h3>Tensor Computing Coprocessor</h3>
       <p>Dedicated tensor-computing coprocessor architecture for accelerating matrix and AI operators.</p>
       <span class="lw-mini-link">Coprocessor</span>
     </article>
     <article class="lw-card lw-project-card">
-      <h3>点积运算装置</h3>
+      <h3>Dot Product Computation Apparatus</h3>
       <p>Dot-product datapath design for efficient low-precision and mixed-precision computation.</p>
       <span class="lw-mini-link">Datapath</span>
     </article>
     <article class="lw-card lw-project-card">
-      <h3>张量计算装置及通用图形处理器</h3>
+      <h3>Tensor Computing Apparatus and General-Purpose GPU</h3>
       <p>Tensor-computing unit integrated with a general-purpose GPU architecture.</p>
       <span class="lw-mini-link">GPGPU</span>
     </article>
     <article class="lw-card lw-project-card">
-      <h3>一种多精度特殊函数单元设计</h3>
+      <h3>Multi-Precision Special-Function Unit Design</h3>
       <p>Reusable multi-precision SFU design supporting common transcendental and arithmetic functions.</p>
       <span class="lw-mini-link">SFU</span>
     </article>
     <article class="lw-card lw-project-card">
-      <h3>图形处理器封装系统及缓存数据访问方法、介质和设备</h3>
+      <h3>GPU Packaging System and Cache Data Access Method, Medium, and Device</h3>
       <p>GPU packaging system and cache-data access architecture for improving data movement and memory-system efficiency.</p>
       <span class="lw-mini-link">Packaging / Cache</span>
     </article>
     <article class="lw-card lw-project-card">
-      <h3>一种在有源中介层 TSV 邻近区域集成 SRAM 缓存的图形处理器封装系统及其访问方法</h3>
+      <h3>GPU Packaging System with SRAM Cache Near Through-Silicon Vias in an Active Interposer, and an Access Method</h3>
       <p>GPU packaging and SRAM cache integration method for bandwidth-sensitive architectures.</p>
       <span class="lw-mini-link">Packaging / Cache</span>
     </article>
     <article class="lw-card lw-project-card">
-      <h3>一种融合光学图像和激光雷达点云的遥感语义分割方法</h3>
+      <h3>Remote Sensing Semantic Segmentation by Fusing Optical Images and LiDAR Point Clouds</h3>
       <p>Multimodal remote-sensing semantic segmentation method combining optical imagery and LiDAR point clouds.</p>
       <span class="lw-mini-link">Remote Sensing</span>
     </article>
