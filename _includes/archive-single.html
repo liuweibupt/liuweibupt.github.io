@@ -13,29 +13,22 @@
 {% endif %}
 
 {% if post.collection == 'publications' %}
-  <div class="lw-publication-card" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="lw-publication-card{% unless post.thumbnail %} lw-publication-card--text{% endunless %}" itemscope itemtype="http://schema.org/{% if post.type == 'tutorial' %}PresentationDigitalDocument{% else %}ScholarlyArticle{% endif %}">
     {% if post.thumbnail %}
       <a class="lw-publication-thumb" href="{{ base_path }}{{ post.url }}" rel="permalink">
-        <img src="{{ post.thumbnail | prepend: "/images/" | prepend: base_path }}" alt="{{ post.title | strip_html }} thumbnail">
+        <img src="{{ post.thumbnail | prepend: "/images/" | prepend: base_path }}" alt="{{ post.thumbnail_alt | default: post.title | escape }}">
       </a>
     {% endif %}
     <article class="lw-publication-body">
       <h2 class="archive__item-title lw-publication-title" itemprop="headline">
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       </h2>
-      <p class="lw-publication-venue">{{ post.venue }} · {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+      <p class="lw-publication-venue">
+        {{ post.venue }} · {{ post.date | date: "%Y" }}{% if post.publication_status %} · {{ post.publication_status }}{% endif %}
+      </p>
       {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>{% endif %}
       {% if post.citation %}<p class="lw-publication-citation">{{ post.citation }}</p>{% endif %}
-      {% if post.citation_count or post.codeurl or post.paperurl or post.slidesurl or post.blogurl or post.newsurl %}
-        <p class="lw-paper-meta">
-          {% if post.citation_count %}<span>Citations snapshot: {{ post.citation_count }}</span>{% endif %}
-          {% if post.paperurl %}<a href="{{ post.paperurl }}">Paper</a>{% endif %}
-          {% if post.slidesurl %}<a href="{{ post.slidesurl }}">Slides</a>{% endif %}
-          {% if post.blogurl %}<a href="{{ post.blogurl }}">知乎解读</a>{% endif %}
-          {% if post.newsurl %}<a href="{{ post.newsurl }}">{{ post.newslabel | default: "Media Coverage" }}</a>{% endif %}
-          {% if post.codeurl %}<a href="{{ post.codeurl }}">Code</a>{% endif %}
-        </p>
-      {% endif %}
+      {% include publication-links.html publication=post %}
     </article>
   </div>
 {% else %}

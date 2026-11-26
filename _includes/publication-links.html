@@ -1,0 +1,17 @@
+{% assign publication = include.publication %}
+{% if publication.citation_count or publication.doi or publication.paperurl or publication.programurl or publication.slidesurl or publication.blogurl or publication.newsurl or publication.codeurl %}
+  <p class="lw-paper-meta">
+    {% if publication.citation_count %}
+      <span title="Google Scholar snapshot, {{ site.data.scholar.snapshot_date }}">Citations: {{ publication.citation_count }}</span>
+    {% endif %}
+    {% if publication.paperurl %}<a href="{{ publication.paperurl | escape }}">{{ publication.paperlabel | default: "Paper" }}</a>{% endif %}
+    {% if publication.doi %}
+      <a href="https://doi.org/{{ publication.doi | escape }}" aria-label="DOI {{ publication.doi | escape }}">DOI{% if include.show_doi %} {{ publication.doi | escape }}{% endif %}</a>
+    {% endif %}
+    {% if publication.programurl %}<a href="{{ publication.programurl | escape }}">Program</a>{% endif %}
+    {% if publication.slidesurl %}<a href="{{ publication.slidesurl | escape }}">Slides</a>{% endif %}
+    {% if publication.blogurl %}<a href="{{ publication.blogurl | escape }}">知乎解读</a>{% endif %}
+    {% if publication.newsurl %}<a href="{{ publication.newsurl | escape }}">{{ publication.newslabel | default: "Media Coverage" }}</a>{% endif %}
+    {% if publication.codeurl %}<a href="{{ publication.codeurl | escape }}">Code</a>{% endif %}
+  </p>
+{% endif %}

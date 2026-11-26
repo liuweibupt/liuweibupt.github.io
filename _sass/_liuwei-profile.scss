@@ -155,27 +155,26 @@
   padding-left: 1.1rem;
 }
 
-.lw-timeline {
-  display: grid;
-  gap: 0.85rem;
-}
+.page.page--home {
+  float: none;
+  width: 100%;
+  max-width: 52rem;
+  margin: 0 auto;
+  padding: 0 0 2rem;
 
-.lw-timeline-item {
-  position: relative;
-  padding: 1rem 1rem 1rem 1.25rem;
-  border-left: 4px solid #14b8a6;
-  border-radius: 18px;
-  background: linear-gradient(90deg, rgba(20, 184, 166, 0.1), rgba(255, 255, 255, 0.92));
-}
+  h1 {
+    margin: 0 0 1rem;
+    font-size: clamp(2rem, 4vw, 2.6rem);
+  }
 
-.lw-timeline-item strong {
-  display: block;
-  color: #0f172a;
-}
+  h2 {
+    margin-top: 2rem;
+    font-size: 1.25rem;
+  }
 
-.lw-timeline-item span {
-  color: #64748b;
-  font-size: 0.84rem;
+  li + li {
+    margin-top: 0.45rem;
+  }
 }
 
 .lw-cv-header {
@@ -296,6 +295,10 @@
   box-shadow: 0 22px 58px rgba(15, 23, 42, 0.1);
 }
 
+.lw-publication-card--text {
+  grid-template-columns: minmax(0, 1fr);
+}
+
 .lw-publication-thumb {
   display: flex;
   align-items: center;
@@ -368,6 +371,12 @@
   object-fit: contain;
   border-radius: 16px;
   background: #f8fafc;
+}
+
+.lw-single-paper-figure figcaption {
+  margin: 0.65rem 0 0;
+  color: #475569;
+  font-size: 0.82rem;
 }
 
 @media (max-width: 700px) {

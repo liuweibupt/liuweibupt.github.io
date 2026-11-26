@@ -1,120 +1,52 @@
 ---
 permalink: /
 title: "Liu Wei / 刘威"
-author_profile: true
+author_profile: false
 hide_title: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-<section class="lw-hero lw-hero--solo">
-  <div>
-    <p class="lw-eyebrow">Tsinghua DSPLab · GPGPU Architecture · AI Infra</p>
-    <h1 class="lw-title">刘威 / Wei Liu</h1>
-    <p class="lw-subtitle">
-      清华大学集成电路学院博士生，研究面向 AI 负载的 GPGPU 体系结构、Tensor Core 微架构、数值精度建模与软硬件协同优化。
-      I build efficient GPU-style architectures and ML systems from numerical behavior to microarchitecture.
-    </p>
-    <div class="lw-tags">
-      <span class="lw-tag">GPGPU Architecture</span>
-      <span class="lw-tag">Tensor Core</span>
-      <span class="lw-tag">MLSys</span>
-      <span class="lw-tag">Hardware/Software Co-design</span>
-    </div>
-    <div class="lw-actions">
-      <a class="lw-button" href="/publications/">Publications</a>
-      <a class="lw-button lw-button--ghost" href="/patents/">Patents</a>
-      <a class="lw-button lw-button--ghost" href="/projects/">Open Source</a>
-      <a class="lw-button lw-button--ghost" href="https://github.com/liuweibupt">GitHub</a>
-    </div>
-  </div>
-</section>
+# 刘威 / Wei Liu
 
-<section class="lw-section">
-  <h2 class="lw-section-title">Research Focus</h2>
-  <div class="lw-card-grid">
-    <article class="lw-card">
-      <h3>乘影 RISC-V 开源 GPGPU</h3>
-      <p>参与 Ventus GPGPU 体系结构设计空间探索，面向 AI 负载分析 Vector、Tensor、SFU、SRAM 与显存带宽之间的协同关系。</p>
-    </article>
-    <article class="lw-card lw-project-card">
-      <h3><a href="https://github.com/liuweibupt/TensorForge">TensorForge</a></h3>
-      <p>设计支持 TF32、BF16、FP16、INT8/4、FP8/6/4 与 Binary 的可复用多精度 Tensor Core，并探索 18 种复用策略。</p>
-      <a class="lw-mini-link" href="/TensorForge/">Interactive Explorer →</a>
-      <a class="lw-mini-link" href="https://github.com/liuweibupt/TensorForge">GitHub →</a>
-    </article>
-    <article class="lw-card">
-      <h3>TensorGauge</h3>
-      <p>构建 CUDA 加速 bit-level Tensor Core 数值模型并接入 PyTorch，在预硅阶段量化微架构数值语义对训练/推理的影响。</p>
-    </article>
-    <article class="lw-card">
-      <h3>MLSys Optimization</h3>
-      <p>围绕 DriveLM 多模态视觉语言模型完成 AWQ/PTQ、LoRA 融合与 FP16 Tensor Core 加速，实现显存降低与推理加速。</p>
-    </article>
-  </div>
-</section>
+我是清华大学集成电路学院 DSPLab 的博士生，导师为何虎。我研究面向 AI 负载的 GPGPU 体系结构、多精度 Tensor Core 与特殊函数单元，以及数值精度对模型训练和推理的影响。我是乘影（Ventus）RISC-V 开源 GPGPU 项目的核心成员。
 
-<section class="lw-section">
-  <h2 class="lw-section-title">Selected Timeline</h2>
-  <div class="lw-timeline">
-    <div class="lw-timeline-item"><strong>2026 · ARITH</strong><span>TensorGauge accepted by IEEE Symposium on Computer Arithmetic.</span></div>
-    <div class="lw-timeline-item"><strong>2025 · IC Competition</strong><span>全国大学生集成电路创新创业大赛一等奖。</span></div>
-    <div class="lw-timeline-item"><strong>2023—Now · Ventus GPGPU</strong><span>Core member of Tsinghua “乘影” RISC-V open-source GPGPU project.</span></div>
-  </div>
-</section>
+I am a Ph.D. student at Tsinghua University. My research focuses on GPU architecture and hardware–software co-design for AI workloads.
 
-<section class="lw-section">
-  <h2 class="lw-section-title">Selected Patents</h2>
-  <div class="lw-card">
-    <p>Selected patent applications cover tensor-computing units, GPGPU integration, multi-precision SFUs, GPU packaging/cache architecture, and optical-image/LiDAR remote-sensing fusion. Application numbers are omitted for privacy.</p>
-    <a class="lw-mini-link" href="/patents/">Patents Page →</a>
-  </div>
-</section>
+[Google Scholar]({{ site.author.googlescholar }}) · [GitHub](https://github.com/liuweibupt)
 
-<section class="lw-section">
-  <h2 class="lw-section-title">Open Source</h2>
-  <div class="lw-card-grid">
-    <article class="lw-card lw-project-card">
-      <h3><a href="https://github.com/liuweibupt/TensorForge">TensorForge</a></h3>
-      <p>多精度 Tensor Core 设计空间探索与可复用硬件结构代码。</p>
-      <a class="lw-mini-link" href="/TensorForge/">Interactive Explorer →</a>
-      <a class="lw-mini-link" href="https://github.com/liuweibupt/TensorForge">GitHub →</a>
-    </article>
-    <article class="lw-card lw-project-card">
-      <h3><a href="https://github.com/liuweibupt/DLAFNet">DLAFNet</a></h3>
-      <p>2D aerial image and 3D LiDAR point-cloud semantic segmentation.</p>
-      <a class="lw-mini-link" href="https://github.com/liuweibupt/DLAFNet">GitHub →</a>
-    </article>
-    <article class="lw-card lw-project-card">
-      <h3><a href="https://github.com/THU-DSP-LAB/ventus-gpgpu">ventus-gpgpu</a></h3>
-      <p>清华“乘影” RISC-V 开源 GPGPU 项目。</p>
-      <a class="lw-mini-link" href="https://github.com/THU-DSP-LAB/ventus-gpgpu">GitHub →</a>
-    </article>
-    <article class="lw-card lw-project-card">
-      <h3><a href="https://github.com/THU-DSP-LAB/sfu">sfu</a></h3>
-      <p>多精度特殊函数单元设计与实现。</p>
-      <a class="lw-mini-link" href="https://github.com/THU-DSP-LAB/sfu">GitHub →</a>
-    </article>
-    <article class="lw-card lw-project-card">
-      <h3><a href="/projects/">More Projects</a></h3>
-      <p>Ventus OpenCL testcases、ventus-pytorch、TQP / GPU Tensor DB 等。</p>
-      <a class="lw-mini-link" href="/projects/">Open Source Page →</a>
-    </article>
-  </div>
-</section>
+## 教育经历 / Education
 
-<section class="lw-section">
-  <h2 class="lw-section-title">Selected Publications</h2>
-  <div class="lw-card">
-    <ul>
-      <li><strong>TensorGauge</strong>: A pre-silicon end-to-end framework for quantifying numerical effects of Tensor Core microarchitecture in GEMM, ARITH 2026. <a href="https://mp.weixin.qq.com/s?__biz=MjM5NDczOTA4NQ%3D%3D&amp;mid=2447904996&amp;idx=1&amp;sn=574c1528c2a0d1efdc26302dc46c8c82">NeuralTalk 报道</a></li>
-      <li><strong>TensorForge</strong>: Systematic design space exploration of multi-precision Tensor Cores for GPGPUs, ICCAD 2026. <a href="/TensorForge/">Explorer</a> · <a href="https://github.com/liuweibupt/TensorForge">Code</a></li>
-      <li><strong>GVM</strong>: Online differential verification for SIMT GPGPUs, ICCAD 2026.</li>
-      <li><strong>EdgeRV</strong>: A scalable meta-instruction-driven RISC-V coprocessor for edge DNN inference, <em>Journal of Systems Architecture</em>, 2026. <a href="https://doi.org/10.1016/j.sysarc.2026.104033">Paper</a></li>
-      <li><strong>RISC-V-Based GPGPU With Vector Capabilities for High-Performance Computing</strong>, IEEE TVLSI 2025.</li>
-      <li><strong>DLAFNet</strong>: Direct LiDAR-aerial fusion for 2D/3D semantic segmentation, IGARSS 2023 Oral &amp; IEEE JSTARS 2024. <a href="https://github.com/liuweibupt/DLAFNet">Code</a></li>
-      <li><strong>SeMask-Mask2Former</strong>, <strong>Semantic Memory Guided Image Representation</strong>, and <strong>ABCF</strong> are listed on the Publications page.</li>
-    </ul>
-  </div>
-</section>
+- **2024.09 至今**　清华大学，集成电路学院，电子信息博士研究生（DSPLab）
+- **2020.09–2024.07**　北京邮电大学，人工智能学院，人工智能本科
+
+## 代表论文 / Selected Publications
+
+- **ICCAD 2026** · [TensorForge](/publication/2026-10-01-tensorforge) — Synthesis-Backed Design Space Exploration of Multi-Precision Tensor Core Microarchitectures. [代码](https://github.com/liuweibupt/TensorForge) · [交互查询](/TensorForge/) · [解读](https://zhuanlan.zhihu.com/p/2096551752862643717)
+- **ICCAD 2026** · [GVM](/publication/2026-10-02-gvm) — Online Differential Verification for SIMT GPGPUs.
+- **IEEE TCAS-II 2026** · [MPSFU](/publication/mpsfu) — A Shared-Datapath Multi-Precision Special-Function Unit for Open-Source GPGPUs. [IEEE Xplore](https://ieeexplore.ieee.org/document/11744429/) · [代码](https://github.com/THU-DSP-LAB/sfu) · [解读](https://zhuanlan.zhihu.com/p/2096981471168934812)
+- **ARITH 2026** · [TensorGauge](/publication/2026-07-01-tensorgauge) — A Pre-silicon End-to-end Framework for Quantifying Numerical Effects of Tensor Core Microarchitecture in GEMM. [DOI](https://doi.org/10.1109/ARITH69512.2026.00028)
+- **JSA 2026** · [EdgeRV](/publication/edgerv) — A scalable meta-instruction-driven RISC-V coprocessor for edge DNN inference.
+- **IEEE TVLSI 2025** · [RISC-V-Based GPGPU With Vector Capabilities for High-Performance Computing](/publication/2025-08-01-riscv-gpgpu-tvlsi).
+
+[完整论文列表与引用统计](/publications/)
+
+## 报告与教程 / Talks and Tutorials
+{: #tutorials}
+
+- **2026.10.18**　[RISC-V 中国峰会乘影专题教程](/tutorial/riscv-summit-china-2026)，报告《Ventus GPGPU Tensor Core：从数值精度，到综合驱动的实现》。[微信报道](https://mp.weixin.qq.com/s/Xot6Gtu7-K6qHMq5rdafow?scene=1&click_id=126)
+- **2025.10.18**　[MICRO 2025 Ventus 专题教程](/publication/2025-10-18-micro-tutorial-tensor-core)，报告《A Multi-Precision Reusable Tensor Core Design》。[微信报道](https://mp.weixin.qq.com/s/IfLo3lu1V_97UKzaxK0bdw?scene=1&click_id=127)
+
+## 荣誉 / Honors
+
+- **2025–2026 学年**　国家奖学金（National Scholarship）
+- **2025 年**　全国大学生集成电路创新创业大赛一等奖
+
+## 项目 / Projects
+
+- [Ventus GPGPU](https://github.com/THU-DSP-LAB/ventus-gpgpu) — 基于 RISC-V 的开源通用 GPU。[Tensor Core 设计解读](https://zhuanlan.zhihu.com/p/2096556999823704507)
+- [DLAFNet](https://github.com/liuweibupt/DLAFNet) — 面向遥感语义分割的航空影像与三维 LiDAR 点云融合。
+- **DriveLM 推理优化** — 采用 AWQ/PTQ、LoRA 融合与 FP16 Tensor Core 加速降低显存占用并加快推理。
+
+[更多开源项目](/projects/) · [专利](/patents/)

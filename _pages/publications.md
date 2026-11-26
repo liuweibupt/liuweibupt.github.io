@@ -7,12 +7,20 @@ author_profile: true
 
 {% include base_path %}
 
-<p class="lw-subtitle">Publication list with code links where available. Citation counts are snapshot values provided by the user on 2026-07-27.</p>
-
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.</div>
+  {% assign scholar = site.data.scholar %}
+  <p class="lw-subtitle">
+    <a href="{{ site.author.googlescholar | escape }}">Google Scholar</a> · {{ scholar.citations }} citations · h-index {{ scholar.h_index }} · i10-index {{ scholar.i10_index }}
+    <br>Snapshot dated {{ scholar.snapshot_date }}.
+  </p>
 {% endif %}
 
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+  {% unless post.type == 'tutorial' %}{% include archive-single.html %}{% endunless %}
+{% endfor %}
+
+<h2 class="lw-section-title">Tutorials</h2>
+
+{% for post in site.publications reversed %}
+  {% if post.type == 'tutorial' %}{% include archive-single.html %}{% endif %}
 {% endfor %}

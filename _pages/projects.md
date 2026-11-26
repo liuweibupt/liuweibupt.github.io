@@ -33,11 +33,13 @@ hide_title: true
       <h3><a href="https://github.com/THU-DSP-LAB/ventus-gpgpu">ventus-gpgpu</a></h3>
       <p>Tsinghua “乘影” RISC-V open-source GPGPU project for architecture research and high-performance computing.</p>
       <a class="lw-mini-link" href="https://github.com/THU-DSP-LAB/ventus-gpgpu">GitHub →</a>
+      <a class="lw-mini-link" href="https://zhuanlan.zhihu.com/p/2096556999823704507">Ventus Tensor Core 设计解读 →</a>
     </article>
     <article class="lw-card lw-project-card">
       <h3><a href="https://github.com/THU-DSP-LAB/sfu">sfu</a></h3>
-      <p>Multi-precision special function unit work supporting reusable FP32 / FP16 / BF16 special-function pipelines.</p>
+      <p>FP32 special-function unit baseline in the Ventus MPSFU project.</p>
       <a class="lw-mini-link" href="https://github.com/THU-DSP-LAB/sfu">GitHub →</a>
+      <a class="lw-mini-link" href="/publication/mpsfu">MPSFU Publication →</a>
     </article>
     <article class="lw-card lw-project-card">
       <h3><a href="https://github.com/THU-DSP-LAB/Ventus-OpenCL-Testcase">Ventus-OpenCL-Testcase</a></h3>
