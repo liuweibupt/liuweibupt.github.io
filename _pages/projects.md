@@ -48,13 +48,13 @@ hide_title: true
     </article>
     <article class="lw-card lw-project-card">
       <h3><a href="https://github.com/THU-DSP-LAB/ventus-pytorch">ventus-pytorch</a></h3>
-      <p>PyTorch-related Ventus software stack and GPU tensor database workload exploration.</p>
+      <p>A PyTorch backend for small-model inference on the Ventus GPGPU.</p>
       <a class="lw-mini-link" href="https://github.com/THU-DSP-LAB/ventus-pytorch">GitHub →</a>
     </article>
     <article class="lw-card lw-project-card">
-      <h3><a href="https://github.com/THU-DSP-LAB/ventus-pytorch">TQP / GPU Tensor DB</a></h3>
-      <p>TQP work for GPU tensor database operators and database-load profiling on domestic GPU/NPU platforms.</p>
-      <a class="lw-mini-link" href="https://github.com/THU-DSP-LAB/ventus-pytorch">GitHub →</a>
+      <h3><a href="https://github.com/liuweibupt/torch-query-gpu">torch-query-gpu</a></h3>
+      <p>A TQP-style SQL analytics prototype that uses DuckDB for query planning and PyTorch tensor operators for execution on CPU or CUDA.</p>
+      <a class="lw-mini-link" href="https://github.com/liuweibupt/torch-query-gpu">GitHub →</a>
     </article>
   </div>
 </section>
