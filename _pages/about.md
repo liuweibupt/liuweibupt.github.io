@@ -12,7 +12,7 @@ redirect_from:
 
 I am a Ph.D. student in DSPLab at Tsinghua University's School of Integrated Circuits, advised by Hu He. I study GPU architectures for AI workloads, with a focus on multi-precision Tensor Cores, special-function units, and how numerical precision affects model training and inference.
 
-I am a core contributor to [Ventus](https://github.com/THU-DSP-LAB/ventus-gpgpu), an open-source GPGPU based on RISC-V.
+I am a core contributor to [Ventus](https://github.com/THU-DSP-LAB/ventus-gpgpu), an open-source RISC-V GPGPU. My work focuses on the hardware backend, including execution units and compute and memory-access components for AI workloads.
 
 ## Talks and Tutorials
 {: #tutorials}
