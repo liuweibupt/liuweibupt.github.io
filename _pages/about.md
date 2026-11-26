@@ -10,9 +10,9 @@ redirect_from:
 
 # About Me
 
-I am a Ph.D. student in DSPLab at Tsinghua University's School of Integrated Circuits, advised by Hu He. I study GPU architectures for AI workloads, with a focus on multi-precision Tensor Cores, special-function units, and how numerical precision affects model training and inference.
+I am a Ph.D. student in DSPLab at Tsinghua University's School of Integrated Circuits, advised by Hu He. My research focuses on GPU architecture, simulation, and modeling. I explore GPU designs for emerging AI workloads and study how new packaging technologies and materials affect architectural trade-offs.
 
-I am a core contributor to [Ventus](https://github.com/THU-DSP-LAB/ventus-gpgpu), an open-source RISC-V GPGPU. My work focuses on the hardware backend, including execution units and compute and memory-access components for AI workloads.
+I am a core contributor to [Ventus](https://github.com/THU-DSP-LAB/ventus-gpgpu), an open-source RISC-V GPGPU. I work on the Ventus hardware backend, including execution units and AI-oriented compute and memory-access components.
 
 ## Talks and Tutorials
 {: #tutorials}
@@ -29,7 +29,7 @@ I am a core contributor to [Ventus](https://github.com/THU-DSP-LAB/ventus-gpgpu)
 - **JSA 2026** · [EdgeRV: A Scalable Meta-Instruction-Driven RISC-V Coprocessor for Edge DNN Inference](/publication/edgerv).
 - **IEEE TVLSI 2025** · [RISC-V-Based GPGPU With Vector Capabilities for High-Performance Computing](/publication/2025-08-01-riscv-gpgpu-tvlsi).
 
-[All publications and citation counts](/publications/)
+[All publications](/publications/)
 
 ## Selected Projects
 

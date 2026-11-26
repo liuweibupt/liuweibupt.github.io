@@ -1,60 +1,37 @@
 ---
 layout: archive
-title: "Open Source"
+title: "Open Source Projects"
 permalink: /projects/
 author_profile: true
-hide_title: true
 ---
 
-{% include base_path %}
-
-<section class="lw-hero lw-hero--compact lw-hero--solo">
-  <div>
-    <p class="lw-eyebrow">Open Source · Reproducible Systems · GPU Research</p>
-    <h1 class="lw-title">Open Source Projects</h1>
-    <p class="lw-subtitle">Selected repositories related to GPGPU architecture, special-function units, OpenCL testcases, GPU tensor database workloads, and multimodal remote-sensing segmentation.</p>
-  </div>
-</section>
-
-<section class="lw-section">
-  <div class="lw-card-grid">
-    <article class="lw-card lw-project-card">
-      <h3><a href="https://github.com/liuweibupt/TensorForge">TensorForge</a></h3>
-      <p>Reusable multi-precision Tensor Core design and design-space exploration for GPGPUs.</p>
-      <a class="lw-mini-link" href="/TensorForge/">Interactive Explorer →</a>
-      <a class="lw-mini-link" href="https://github.com/liuweibupt/TensorForge">GitHub →</a>
-    </article>
-    <article class="lw-card lw-project-card">
-      <h3><a href="https://github.com/liuweibupt/DLAFNet">DLAFNet</a></h3>
-      <p>Direct LiDAR-aerial fusion network for 2D aerial image and 3D LiDAR point-cloud semantic segmentation.</p>
-      <a class="lw-mini-link" href="https://github.com/liuweibupt/DLAFNet">GitHub →</a>
-    </article>
-    <article class="lw-card lw-project-card">
-      <h3><a href="https://github.com/THU-DSP-LAB/ventus-gpgpu">ventus-gpgpu</a></h3>
-      <p>Tsinghua University's open-source Ventus GPGPU project, based on RISC-V, for architecture research and high-performance computing.</p>
-      <a class="lw-mini-link" href="https://github.com/THU-DSP-LAB/ventus-gpgpu">GitHub →</a>
-      <a class="lw-mini-link" href="https://zhuanlan.zhihu.com/p/2096556999823704507">Ventus Tensor Core Design Write-up →</a>
-    </article>
-    <article class="lw-card lw-project-card">
-      <h3><a href="https://github.com/THU-DSP-LAB/sfu">sfu</a></h3>
-      <p>FP32 special-function unit baseline in the Ventus MPSFU project.</p>
-      <a class="lw-mini-link" href="https://github.com/THU-DSP-LAB/sfu">GitHub →</a>
-      <a class="lw-mini-link" href="/publication/mpsfu">MPSFU Publication →</a>
-    </article>
-    <article class="lw-card lw-project-card">
-      <h3><a href="https://github.com/THU-DSP-LAB/Ventus-OpenCL-Testcase">Ventus-OpenCL-Testcase</a></h3>
-      <p>OpenCL testcases for validating and evaluating the Ventus GPGPU software/hardware stack.</p>
-      <a class="lw-mini-link" href="https://github.com/THU-DSP-LAB/Ventus-OpenCL-Testcase">GitHub →</a>
-    </article>
-    <article class="lw-card lw-project-card">
-      <h3><a href="https://github.com/THU-DSP-LAB/ventus-pytorch">ventus-pytorch</a></h3>
-      <p>A PyTorch backend for small-model inference on the Ventus GPGPU.</p>
-      <a class="lw-mini-link" href="https://github.com/THU-DSP-LAB/ventus-pytorch">GitHub →</a>
-    </article>
-    <article class="lw-card lw-project-card">
-      <h3><a href="https://github.com/liuweibupt/torch-query-gpu">torch-query-gpu</a></h3>
-      <p>A TQP-style SQL analytics prototype that uses DuckDB for query planning and PyTorch tensor operators for execution on CPU or CUDA.</p>
-      <a class="lw-mini-link" href="https://github.com/liuweibupt/torch-query-gpu">GitHub →</a>
-    </article>
-  </div>
-</section>
+<ul class="lw-entry-list" role="list">
+  <li>
+    <h2><a href="https://github.com/liuweibupt/TensorForge">TensorForge</a></h2>
+    <p>Reusable multi-precision Tensor Core design and design-space exploration for GPGPUs. <a href="{{ '/TensorForge/' | relative_url }}">Interactive explorer</a></p>
+  </li>
+  <li>
+    <h2><a href="https://github.com/liuweibupt/DLAFNet">DLAFNet</a></h2>
+    <p>Direct LiDAR-aerial fusion network for 2D aerial image and 3D LiDAR point-cloud semantic segmentation.</p>
+  </li>
+  <li>
+    <h2><a href="https://github.com/THU-DSP-LAB/ventus-gpgpu">ventus-gpgpu</a></h2>
+    <p>Tsinghua University's open-source Ventus GPGPU project, based on RISC-V, for architecture research and high-performance computing. <a href="https://zhuanlan.zhihu.com/p/2096556999823704507">Ventus Tensor Core design write-up</a></p>
+  </li>
+  <li>
+    <h2><a href="https://github.com/THU-DSP-LAB/sfu">sfu</a></h2>
+    <p>FP32 special-function unit baseline in the Ventus MPSFU project. <a href="{{ '/publication/mpsfu' | relative_url }}">MPSFU publication</a></p>
+  </li>
+  <li>
+    <h2><a href="https://github.com/THU-DSP-LAB/Ventus-OpenCL-Testcase">Ventus-OpenCL-Testcase</a></h2>
+    <p>OpenCL testcases for validating and evaluating the Ventus GPGPU software/hardware stack.</p>
+  </li>
+  <li>
+    <h2><a href="https://github.com/THU-DSP-LAB/ventus-pytorch">ventus-pytorch</a></h2>
+    <p>A PyTorch backend for small-model inference on the Ventus GPGPU.</p>
+  </li>
+  <li>
+    <h2><a href="https://github.com/liuweibupt/torch-query-gpu">torch-query-gpu</a></h2>
+    <p>A TQP-style SQL analytics prototype that uses DuckDB for query planning and PyTorch tensor operators for execution on CPU or CUDA.</p>
+  </li>
+</ul>

@@ -13,24 +13,25 @@
 {% endif %}
 
 {% if post.collection == 'publications' %}
-  <div class="lw-publication-card{% unless post.thumbnail %} lw-publication-card--text{% endunless %}" itemscope itemtype="http://schema.org/{% if post.type == 'tutorial' %}PresentationDigitalDocument{% else %}ScholarlyArticle{% endif %}">
+  {% assign entry_heading = include.heading | default: 'h2' %}
+  <li{% if post.thumbnail %} class="lw-publication--illustrated"{% endif %} itemscope itemtype="http://schema.org/{% if post.type == 'tutorial' %}PresentationDigitalDocument{% else %}ScholarlyArticle{% endif %}">
     {% if post.thumbnail %}
       <a class="lw-publication-thumb" href="{{ base_path }}{{ post.url }}" rel="permalink">
         <img src="{{ post.thumbnail | prepend: "/images/" | prepend: base_path }}" alt="{{ post.thumbnail_alt | default: post.title | escape }}">
       </a>
     {% endif %}
-    <article class="lw-publication-body">
-      <h2 class="archive__item-title lw-publication-title" itemprop="headline">
+    <div>
+      <{{ entry_heading }} itemprop="headline">
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-      </h2>
+      </{{ entry_heading }}>
       <p class="lw-publication-venue">
         {{ post.venue }} · {{ post.date | date: "%Y" }}{% if post.publication_status %} · {{ post.publication_status }}{% endif %}
       </p>
-      {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>{% endif %}
+      {% if post.excerpt %}<p itemprop="description">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>{% endif %}
       {% if post.citation %}<p class="lw-publication-citation">{{ post.citation }}</p>{% endif %}
       {% include publication-links.html publication=post %}
-    </article>
-  </div>
+    </div>
+  </li>
 {% else %}
   <div class="{{ include.type | default: "list" }}__item">
     <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">

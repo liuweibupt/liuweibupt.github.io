@@ -5,22 +5,16 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% include base_path %}
+<ul class="lw-entry-list" role="list">
+  {% for post in site.publications reversed %}
+    {% unless post.type == 'tutorial' %}{% include archive-single.html %}{% endunless %}
+  {% endfor %}
+</ul>
 
-{% if site.author.googlescholar %}
-  {% assign scholar = site.data.scholar %}
-  <p class="lw-subtitle">
-    <a href="{{ site.author.googlescholar | escape }}">Google Scholar</a> · {{ scholar.citations }} citations · h-index {{ scholar.h_index }} · i10-index {{ scholar.i10_index }}
-    <br>Snapshot dated {{ scholar.snapshot_date }}.
-  </p>
-{% endif %}
+<h2>Tutorials</h2>
 
-{% for post in site.publications reversed %}
-  {% unless post.type == 'tutorial' %}{% include archive-single.html %}{% endunless %}
-{% endfor %}
-
-<h2 class="lw-section-title">Tutorials</h2>
-
-{% for post in site.publications reversed %}
-  {% if post.type == 'tutorial' %}{% include archive-single.html %}{% endif %}
-{% endfor %}
+<ul class="lw-entry-list" role="list">
+  {% for post in site.publications reversed %}
+    {% if post.type == 'tutorial' %}{% include archive-single.html heading="h3" %}{% endif %}
+  {% endfor %}
+</ul>
